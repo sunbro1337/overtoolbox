@@ -1,0 +1,7 @@
+
+========================================================================
+
+[S] [2021_08_06 21:18:10] monkeyPatchOpen: BWUtil.monkeyPatchOpen: Patching open()
+
+[S] [2021_08_06 21:18:10] Default encoding set to utf-8
+[S] [2021_08_06 21:18:10] Unicode Test - utf-8
