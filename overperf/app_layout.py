@@ -1,3 +1,4 @@
+import pandas as pd
 from dash import dcc, html
 
 from plotly_plots.create import *
@@ -29,13 +30,28 @@ class AppLayout:
             title='gpu_utilization'
         )
 
+        data_current_ua_min_dur = min(battery_data['data_current_ua'][0]['duration_ts'].min(),
+                                      battery_data['data_current_ua'][1]['duration_ts'].min())
+        data_current_ua_max_dur = max(battery_data['data_current_ua'][0]['duration_ts'].max(),
+                                      battery_data['data_current_ua'][1]['duration_ts'].max())
+        cont_duration = pd.concat([battery_data['data_current_ua'][0]['x'],
+                                   battery_data['data_current_ua'][1]['x']])
+
         app_layout = html.Div(
             # style={'backgroundColor': colors['background']},
             children=[
 
             dcc.Graph(
-                id='data_current_ua',
+                id='data_current_ua-graph',
                 figure=data_current_ua_fig
+            ),
+            dcc.Slider(
+                min=data_current_ua_min_dur,
+                max=data_current_ua_max_dur,
+                step=None,
+                value=data_current_ua_max_dur,
+                marks={str(time): str(time) for time in cont_duration.unique()},
+                id='data_current_ua-duration-slider',
             ),
 
             dcc.Graph(
@@ -53,4 +69,5 @@ class AppLayout:
                 figure=gpu_fig
             )
         ])
+
         return app_layout

@@ -33,12 +33,14 @@ def prepare_pddf_battery(tp_1, tp_2):
         {
             'x': batt_current_ua_1["duration"],
             'y': batt_current_ua_1["value"],
-            'label': "current_ua_res1.0"
+            'label': "current_ua_res1.0",
+            'duration_ts': batt_current_ua_1['duration_ts']
         },
         {
             'x': batt_current_ua_2["duration"],
             'y': batt_current_ua_2["value"],
-            'label': "current_ua_res0.3"
+            'label': "current_ua_res0.3",
+            'duration_ts': batt_current_ua_2['duration_ts']
         }
     ]
 
@@ -84,7 +86,6 @@ def prepare_pddf_gpu(tp_1, tp_2):
     print(f"{gpu_description['name'][0]}: {gpu_description['description'][0]}")
     print(gpu_utilization_1.head(), gpu_utilization_2.head())
     print("Preparing pandas data frames is complete: GPU")
-    print("Preparing plots: GPU")
     axs_labels = {
         'x': 'Duration',
         'y': 'Value'
