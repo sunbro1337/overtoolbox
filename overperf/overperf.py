@@ -6,9 +6,8 @@ from perfetto.trace_processor import TraceProcessor
 from dash import Dash, Input, Output
 
 # from _old_matplotlib_plots.create_plots import *
-from plotly_plots.create import create_scatter
 from data_frames.prepare import prepare_pddf_battery, prepare_pddf_gpu
-from app_layout import *
+from layout import *
 
 
 # TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
@@ -20,14 +19,27 @@ TRACE_1 = os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846.perfe
 TRACE_2 = os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846.perfetto")
 
 
-DARK_MODE = True
+DARK_MODE = False
 if DARK_MODE:
     THEME = "plotly_dark"
 else:
     THEME = "plotly_white"
 NS = False
 TIME_FORMAT = '%M:%S:%f' if NS else "%M:%S"
-TIME_AXIS_TICK =1
+colors = {
+    'background': '#111111',
+    'text': '#7FDBFF'
+}
+theme = {
+    'dark': True,
+    'detail': '#007439',
+    'primary': '#00EA64',
+    'secondary': '#6E6E6E',
+}
+axs_labels = {
+        'x': 'Duration',
+        'y': 'Value'
+    }
 
 print("Loading traces")
 tp_1 = TraceProcessor(trace=TRACE_1)
@@ -37,36 +49,30 @@ print("Loading traces is complete")
 battery_data = prepare_pddf_battery(tp_1, tp_2)
 gpu_data = prepare_pddf_gpu(tp_1, tp_2)
 
-colors = {
-    'background': '#111111',
-    'text': '#7FDBFF'
-}
-
-theme = {
-    'dark': True,
-    'detail': '#007439',
-    'primary': '#00EA64',
-    'secondary': '#6E6E6E',
-}
-
 app = Dash(__name__)
 # TODO
 # https://dash.plotly.com/external-resources
 # app.css.append_css({'external_url': 'static/background.css'})
 # app.server.static_folder = 'static'
 
-app.layout = AppLayout.scatter_plots(
-    colors=colors,
-    theme=THEME,
-    battery_data=battery_data,
-    gpu_data=gpu_data,
+app.layout = html.Div(
+    children=[
+        LayoutElements.create_plot_fig(
+            colors,
+            THEME,
+            battery_data['data_current_ua'],
+            axs_labels,
+            'current_ua'
+        )
+    ]
 )
 
 @app.callback(
-    Output('data_current_ua-graph', 'figure'),
-    Input('data_current_ua-duration-slider', 'value')
+    Output('current_ua_graph', 'figure'),
+    Input('current_ua_duration_slider', 'value'),
+    Input('current_ua_yaxis_type', 'value')
 )
-def update_figure(selected_duration):
+def update_current_ua_fig(selected_duration, current_ua_yaxis_type):
     filtered_data_current_ua = [
         {
             'x': battery_data['data_current_ua'][0]["x"][(battery_data['data_current_ua'][0]["x"]
@@ -85,13 +91,14 @@ def update_figure(selected_duration):
             'duration_ts': battery_data['data_current_ua'][1]['duration_ts']
         }
     ]
-    data_current_ua_fig = create_scatter(filtered_data_current_ua, battery_data['axs_labels'])
-    data_current_ua_fig.update_layout(
+    current_ua_fig = LayoutElements.create_scatter(filtered_data_current_ua, axs_labels)
+    current_ua_fig.update_yaxes(type=current_ua_yaxis_type.lower())
+    current_ua_fig.update_layout(
         transition_duration=500,
-        title='data_current_ua',
+        title='current_ua',
         template=THEME
     )
-    return data_current_ua_fig
+    return current_ua_fig
 
 if __name__ == '__main__':
     app.run_server(debug=True)
