@@ -8,15 +8,16 @@ from dash import Dash, Input, Output
 # from _old_matplotlib_plots.create_plots import *
 from data_frames.prepare import prepare_pddf_battery, prepare_pddf_gpu
 from layout import *
+from callbacks import *
 
+# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto")
+# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto")
 
 # TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
 # TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1829.perfetto")
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto")
-TRACE_1 = os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-TRACE_2 = os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846.perfetto")
+
+TRACE_1 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto")
+TRACE_2 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto")
 
 
 DARK_MODE = False
@@ -60,46 +61,64 @@ app.layout = html.Div(
         LayoutElements.create_plot_fig(
             colors,
             THEME,
-            battery_data['data_current_ua'],
+            battery_data['current_ua'],
             axs_labels,
             'current_ua'
-        )
+        ),
+        LayoutElements.create_plot_fig(
+            colors,
+            THEME,
+            battery_data['charge_uah'],
+            axs_labels,
+            'charge_uah'
+        ),
+        LayoutElements.create_plot_fig(
+            colors,
+            THEME,
+            battery_data['capacity_pct'],
+            axs_labels,
+            'capacity_pct'
+        ),
+        LayoutElements.create_plot_fig(
+            colors,
+            THEME,
+            gpu_data['gpu_utilization'],
+            axs_labels,
+            'gpu_utilization'
+        ),
     ]
 )
 
-@app.callback(
-    Output('current_ua_graph', 'figure'),
-    Input('current_ua_duration_slider', 'value'),
-    Input('current_ua_yaxis_type', 'value')
-)
-def update_current_ua_fig(selected_duration, current_ua_yaxis_type):
-    filtered_data_current_ua = [
-        {
-            'x': battery_data['data_current_ua'][0]["x"][(battery_data['data_current_ua'][0]["x"]
-                                                          <= pd.to_datetime(selected_duration))
-                                                         & (battery_data['data_current_ua'][0]["x"] >= pd.to_datetime(0))],
-            'y': battery_data['data_current_ua'][0]["y"],
-            'label': "current_ua_res1.0",
-            'duration_ts': battery_data['data_current_ua'][0]['duration_ts']
-        },
-        {
-            'x': battery_data['data_current_ua'][1]["x"][(battery_data['data_current_ua'][1]["x"]
-                                                          <= pd.to_datetime(selected_duration))
-                                                         & (battery_data['data_current_ua'][1]["x"] >= pd.to_datetime(0))],
-            'y': battery_data['data_current_ua'][1]["y"],
-            'label': "current_ua_res1.0",
-            'duration_ts': battery_data['data_current_ua'][1]['duration_ts']
-        }
-    ]
-    current_ua_fig = LayoutElements.create_scatter(filtered_data_current_ua, axs_labels)
-    current_ua_fig.update_yaxes(type=current_ua_yaxis_type.lower())
-    current_ua_fig.update_layout(
-        transition_duration=500,
-        title='current_ua',
-        template=THEME
-    )
-    return current_ua_fig
+callback_current_ua = Callback(
+    name='current_ua',
+    app=app,
+    data=battery_data['current_ua'],
+    axs_labels=axs_labels,
+    theme=THEME
+).update_fig_callback()
+callback_charge_uah = Callback(
+    name='charge_uah',
+    app=app,
+    data=battery_data['charge_uah'],
+    axs_labels=axs_labels,
+    theme=THEME
+).update_fig_callback()
+callback_capacity_pct = Callback(
+    name='capacity_pct',
+    app=app,
+    data=battery_data['capacity_pct'],
+    axs_labels=axs_labels,
+    theme=THEME
+).update_fig_callback()
+callback_gpu_utilization = Callback(
+    name='gpu_utilization',
+    app=app,
+    data=gpu_data['gpu_utilization'],
+    axs_labels=axs_labels,
+    theme=THEME
+).update_fig_callback()
 
 if __name__ == '__main__':
     app.run_server(debug=True)
 #TODO Slices like in AGI
+#TODO Save stats as HTMl
