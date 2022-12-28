@@ -18,16 +18,7 @@ class LayoutElements:
         return fig
 
     @staticmethod
-    def create_plot_fig(colors, theme, data, axs_lables, name):
-        fig = LayoutElements.create_scatter(data, axs_lables)
-        fig.update_layout(
-            template=theme,
-            title=name,
-            transition_duration=500
-            # plot_bgcolor=colors['background'],
-            # paper_bgcolor=colors['background'],
-            # font_color=colors['text']
-        )
+    def create_plot_fig(data, name):
         min_dur = min(data[0]['duration_ts'].drop([0]).min(),
                                       data[1]['duration_ts'].drop([0]).min())
         max_dur = max(data[0]['duration_ts'].max(),
@@ -44,7 +35,6 @@ class LayoutElements:
 
             dcc.Graph(
                 id=f'{name}_graph',
-                figure=fig
             ),
             dcc.RadioItems(
                 ['Linear', 'Log'],

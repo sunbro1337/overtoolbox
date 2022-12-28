@@ -10,17 +10,15 @@ from data_frames.prepare import prepare_pddf_battery, prepare_pddf_gpu
 from layout import *
 from callbacks import *
 
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto")
+app = Dash(__name__)
+# TODO
+# https://dash.plotly.com/external-resources
+# app.css.append_css({'external_url': 'static/background.css'})
+# app.server.static_folder = 'static'
 
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-
-TRACE_1 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto")
-TRACE_2 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto")
-
-
+DEBUG_MODE = False
 DARK_MODE = False
+DEVICE = 'mali'
 if DARK_MODE:
     THEME = "plotly_dark"
 else:
@@ -42,50 +40,45 @@ axs_labels = {
         'y': 'Value'
     }
 
+# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto")
+# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto")
+
+TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
+TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
+
+# TRACE_1 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto")
+# TRACE_2 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto")
+
 print("Loading traces")
 tp_1 = TraceProcessor(trace=TRACE_1)
 tp_2 = TraceProcessor(trace=TRACE_2)
 print("Loading traces is complete")
 
 battery_data = prepare_pddf_battery(tp_1, tp_2)
-gpu_data = prepare_pddf_gpu(tp_1, tp_2)
-
-app = Dash(__name__)
-# TODO
-# https://dash.plotly.com/external-resources
-# app.css.append_css({'external_url': 'static/background.css'})
-# app.server.static_folder = 'static'
+gpu_data = prepare_pddf_gpu(tp_1, tp_2, DEVICE)
 
 app.layout = html.Div(
     children=[
         LayoutElements.create_plot_fig(
-            colors,
-            THEME,
             battery_data['current_ua'],
-            axs_labels,
             'current_ua'
         ),
         LayoutElements.create_plot_fig(
-            colors,
-            THEME,
             battery_data['charge_uah'],
-            axs_labels,
             'charge_uah'
         ),
         LayoutElements.create_plot_fig(
-            colors,
-            THEME,
             battery_data['capacity_pct'],
-            axs_labels,
             'capacity_pct'
         ),
-        LayoutElements.create_plot_fig(
-            colors,
-            THEME,
-            gpu_data['gpu_utilization'],
-            axs_labels,
-            'gpu_utilization'
-        ),
+# LayoutElements.create_plot_fig(
+#     gpu_data['gpu_utilization'],
+#     'gpu_utilization'
+# ),
+# LayoutElements.create_plot_fig(
+#     gpu_data['gpu_time_alus_working'],
+#     'gpu_time_alus_working'
+# ),
     ]
 )
 
@@ -110,15 +103,22 @@ callback_capacity_pct = Callback(
     axs_labels=axs_labels,
     theme=THEME
 ).update_fig_callback()
-callback_gpu_utilization = Callback(
-    name='gpu_utilization',
-    app=app,
-    data=gpu_data['gpu_utilization'],
-    axs_labels=axs_labels,
-    theme=THEME
-).update_fig_callback()
+# callback_gpu_utilization = Callback(
+#     name='gpu_utilization',
+#     app=app,
+#     data=gpu_data['gpu_utilization'],
+#     axs_labels=axs_labels,
+#     theme=THEME
+# ).update_fig_callback()
+# callback_gpu_time_alus_working = Callback(
+#     name='gpu_time_alus_working',
+#     app=app,
+#     data=gpu_data['gpu_time_alus_working'],
+#     axs_labels=axs_labels,
+#     theme=THEME
+# ).update_fig_callback()
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=DEBUG_MODE)
 #TODO Slices like in AGI
 #TODO Save stats as HTMl

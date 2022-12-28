@@ -1,5 +1,5 @@
 # https://perfetto.dev/docs/data-sources/battery-counters
-def batt_query(tp):
+def batt_query_all(tp):
     print("Querying to tp: battery")
     # batt_all = tp.query("""SELECT ts, value, name, ct.id, c.id FROM counter as c
     # left join counter_track as ct on c.track_id = ct.id
@@ -21,4 +21,8 @@ def batt_query(tp):
     where ct.name="batt.capacity_pct"
     order by ct.id and c.id""")
     print("Querying to tp is complete: battery")
-    return (None, batt_charge_uah, batt_current_ua, batt_capacity_pct)
+    return {
+        'batt_charge_uah': batt_charge_uah,
+        'batt_current_ua': batt_current_ua,
+        'batt_capacity_pct': batt_capacity_pct,
+    }

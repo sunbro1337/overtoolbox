@@ -3,6 +3,11 @@ import pandas as pd
 from .queries.battery import *
 from .queries.gpu import *
 
+class PhysicalDeivces:
+    ADRENO = 'adreno'
+    MALI = 'mali'
+    POWERVR = 'povervr'
+
 def prepare_pddf(query_data, rename=None):
     df = query_data.as_pandas_dataframe()[["ts", "value"]]
     if rename:
@@ -13,14 +18,14 @@ def prepare_pddf(query_data, rename=None):
 
 def prepare_pddf_battery(tp_1, tp_2):
     print("Preparing pandas data frames: battery")
-    batt_qrdf_1 = batt_query(tp_1)
-    batt_qrdf_2 = batt_query(tp_2)
-    batt_charge_uah_1 = prepare_pddf(batt_qrdf_1[1])
-    batt_charge_uah_2 = prepare_pddf(batt_qrdf_2[1])
-    batt_current_ua_1 = prepare_pddf(batt_qrdf_1[2])
-    batt_current_ua_2 = prepare_pddf(batt_qrdf_2[2])
-    batt_capacity_pct_1 = prepare_pddf(batt_qrdf_1[3])
-    batt_capacity_pct_2 = prepare_pddf(batt_qrdf_2[3])
+    batt_qrdf_1 = batt_query_all(tp_1)
+    batt_qrdf_2 = batt_query_all(tp_2)
+    batt_charge_uah_1 = prepare_pddf(batt_qrdf_1["batt_charge_uah"])
+    batt_charge_uah_2 = prepare_pddf(batt_qrdf_2["batt_charge_uah"])
+    batt_current_ua_1 = prepare_pddf(batt_qrdf_1["batt_current_ua"])
+    batt_current_ua_2 = prepare_pddf(batt_qrdf_2["batt_current_ua"])
+    batt_capacity_pct_1 = prepare_pddf(batt_qrdf_1["batt_capacity_pct"])
+    batt_capacity_pct_2 = prepare_pddf(batt_qrdf_2["batt_capacity_pct"])
     print("For more info about energy metrics see https://perfetto.dev/docs/data-sources/battery-counters")
     print(batt_charge_uah_1.head(), '\n', batt_charge_uah_2.head(), '\n', batt_current_ua_1.head(), '\n',
           batt_current_ua_2.head(), '\n', batt_capacity_pct_1.head(), '\n', batt_capacity_pct_2.head())
@@ -75,30 +80,59 @@ def prepare_pddf_battery(tp_1, tp_2):
         "capacity_pct": data_capacity_pct,
     }
 
-def prepare_pddf_gpu(tp_1, tp_2):
-    print("Preparing pandas data frames: GPU")
-    gpu_qrdf_1 = gpu_query(tp_1)
-    gpu_qrdf_2 = gpu_query(tp_2)
-    gpu_utilization_1 = prepare_pddf(gpu_qrdf_1[0])
-    gpu_utilization_2 = prepare_pddf(gpu_qrdf_2[0])
-    gpu_description = gpu_qrdf_1[1].as_pandas_dataframe()[['name', 'description']]
-    print(f"{gpu_description['name'][0]}: {gpu_description['description'][0]}")
+def prepare_pddf_gpu(tp_1, tp_2, device):
+    if device == PhysicalDeivces.ADRENO:
+        print(f"Preparing pandas data frames: GPU {device}")
+        gpu_qrdf_1 = gpu_query_adreno(tp_1)
+        gpu_qrdf_2 = gpu_query_adreno(tp_2)
+    elif device == PhysicalDeivces.MALI:
+        print(f"Preparing pandas data frames: GPU {device}")
+        gpu_qrdf_1 = gpu_query_mali(tp_1)
+        gpu_qrdf_2 = gpu_query_mali(tp_2)
+    elif device == PhysicalDeivces.POWERVR:
+        pass
+    else:
+        raise RuntimeError(f'Device {device} is not suitable')
+    gpu_utilization_1 = prepare_pddf(gpu_qrdf_1["GPU_utilization_data"])
+    gpu_utilization_2 = prepare_pddf(gpu_qrdf_2["GPU_utilization_data"])
+    gpu_utilization_description = gpu_qrdf_1["GPU_utilization_details"].as_pandas_dataframe()[['name', 'description']]
+    print(f"{gpu_utilization_description['name'][0]}: {gpu_utilization_description['description'][0]}")
     print(gpu_utilization_1.head(), '\n', gpu_utilization_2.head())
+    # gpu_time_alus_working_1 = prepare_pddf(gpu_qrdf_1["GPU_time_alus_working_data"])
+    # gpu_time_alus_working_2 = prepare_pddf(gpu_qrdf_2["GPU_time_alus_working_data"])
+    # gpu_time_alus_description = gpu_qrdf_1["GPU_time_alus_working_details"].as_pandas_dataframe()[['name', 'description']]
+    # print(f"{gpu_time_alus_description['name'][0]}: {gpu_time_alus_description['description'][0]}")
+    # print(gpu_time_alus_working_1.head(), '\n', gpu_time_alus_working_2.head())
     print("Preparing pandas data frames is complete: GPU")
     gpu_utilization = [
         {
             'x': gpu_utilization_1["duration"],
             'y': gpu_utilization_1["value"],
-            'label': "current_ua_res1.0",
+            'label': "gpu_utilization_1",
             'duration_ts': gpu_utilization_1['duration_ts']
         },
         {
             'x': gpu_utilization_2["duration"],
             'y': gpu_utilization_2["value"],
-            'label': "current_ua_res0.3",
+            'label': "gpu_utilization_2",
             'duration_ts': gpu_utilization_2['duration_ts']
         }
     ]
+    # gpu_time_alus_working = [
+    #     {
+    #         'x': gpu_time_alus_working_1["duration"],
+    #         'y': gpu_time_alus_working_1["value"],
+    #         'label': "gpu_time_alus_working_1",
+    #         'duration_ts': gpu_time_alus_working_1['duration_ts']
+    #     },
+    #     {
+    #         'x': gpu_time_alus_working_2["duration"],
+    #         'y': gpu_time_alus_working_2["value"],
+    #         'label': "gpu_time_alus_working_2",
+    #         'duration_ts': gpu_time_alus_working_2['duration_ts']
+    #     }
+    # ]
     return {
         'gpu_utilization': gpu_utilization,
+        # 'gpu_time_alus_working': gpu_time_alus_working,
     }

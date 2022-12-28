@@ -35,5 +35,8 @@ class Callback:
                 transition_duration=500,
                 title=self.name,
                 template=self.theme
+                # plot_bgcolor=colors['background'],
+                # paper_bgcolor=colors['background'],
+                # font_color=colors['text']
             )
             return fig
