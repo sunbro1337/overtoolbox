@@ -1,4 +1,3 @@
-import pandas as pd
 from dash import dcc, html
 from datetime import datetime
 import plotly.graph_objects as go
@@ -19,15 +18,9 @@ class LayoutElements:
 
     @staticmethod
     def create_plot_fig(data, name):
-        min_dur = min(data[0]['duration_ts'].drop([0]).min(),
-                                      data[1]['duration_ts'].drop([0]).min())
-        max_dur = max(data[0]['duration_ts'].max(),
-                                      data[1]['duration_ts'].max())
-        cont_duration = pd.concat([data[0]['duration_ts'],
-                                   data[1]['duration_ts']]).drop([0])
         marks = {
             str(time): str(datetime.fromtimestamp(time // 1000000000).strftime("%M:%S"))
-            for time in cont_duration.unique()
+            for time in data['duration_ts'].drop([0]).unique()
         }
         layout = html.Div(
             # style={'backgroundColor': colors['background']},
@@ -42,12 +35,18 @@ class LayoutElements:
                 id=f'{name}_yaxis_type',
                 inline=True
             ),
-            #TODO dcc.RangeSlider
+            #TODO dcc.RangeSlider https: // plotly.com / python / line - and -scatter /
+            #dcc.RangeSlider(
+            #    id='range-slider',
+            #    min=0, max=2.5, step=0.1,
+            #    marks={0: '0', 2.5: '2.5'},
+            #    value=[0.5, 2]
+            #),
             dcc.Slider(
-                min=min_dur,
-                max=max_dur,
+                min=data['duration_ts'].min(),
+                max=data['duration_ts'].max(),
                 step=None,
-                value=max_dur,
+                value=data['duration_ts'].max(),
                 marks=marks,
                 id=f'{name}_duration_slider',
             ),
