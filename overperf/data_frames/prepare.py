@@ -40,21 +40,24 @@ def prepare_pddf_gpu(trace_processors, device):
     }
     if device == PhysicalDeivces.ADRENO:
         print(f"Preparing pandas data frames: GPU {device}")
-        gpu_utilization_description = None
-        gpu_time_alus_working_description = None
+        prepared_pddfs["gpu_time_alus_working"] = pd.DataFrame([])
+        # gpu_utilization_description = None
+        # gpu_time_alus_working_description = None
         for tp in trace_processors:
             gpu_qrdf = gpu_query_adreno(trace_processors[tp])
-            prepared_pddfs["gpu_utilization"] = pd.concat([prepared_pddfs["gpu_utilization_data"], prepare_pddf(gpu_qrdf['gpu_utilization_data'], tp)])
+            prepared_pddfs["gpu_utilization"] = pd.concat([prepared_pddfs["gpu_utilization"], prepare_pddf(gpu_qrdf['gpu_utilization_data'], tp)])
             prepared_pddfs["gpu_time_alus_working"] = pd.concat([prepared_pddfs["gpu_time_alus_working"], prepare_pddf(gpu_qrdf['gpu_time_alus_working_data'], tp)])
-            if not gpu_utilization_description and gpu_time_alus_working_description:
-                gpu_utilization_description = gpu_qrdf["gpu_utilization_details"].as_pandas_dataframe()[
-                    ['name', 'description']]
-                gpu_time_alus_working_description = gpu_qrdf["gpu_time_alus_working_details"].as_pandas_dataframe()[
-                    ['name', 'description']]
-        print(f"{gpu_utilization_description['name'][0]}: {gpu_utilization_description['description'][0]}")
-        print(prepared_pddfs['gpu_utilization_data'].head())
-        print(f"{gpu_time_alus_working_description['name'][0]}: {gpu_time_alus_working_description['description'][0]}")
-        print(prepared_pddfs['gpu_time_alus_working_data'].head())
+            # if not gpu_utilization_description and gpu_time_alus_working_description:
+            #     gpu_utilization_description = gpu_qrdf["gpu_utilization_details"].as_pandas_dataframe()[
+            #         ['name', 'description']]
+            #     gpu_time_alus_working_description = gpu_qrdf["gpu_time_alus_working_details"].as_pandas_dataframe()[
+            #         ['name', 'description']]
+        # print(gpu_qrdf["gpu_utilization_details"])
+        # print(gpu_qrdf["gpu_time_alus_working_details"])
+        # print(f"{gpu_utilization_description['name'][0]}: {gpu_utilization_description['description'][0]}")
+        # print(prepared_pddfs['gpu_utilization_data'].head())
+        # print(f"{gpu_time_alus_working_description['name'][0]}: {gpu_time_alus_working_description['description'][0]}")
+        # print(prepared_pddfs['gpu_time_alus_working_data'].head())
     elif device == PhysicalDeivces.MALI:
         print(f"Preparing pandas data frames: GPU {device}")
         for tp in trace_processors:

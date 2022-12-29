@@ -15,9 +15,9 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 # app.css.append_css({'external_url': 'static/background.css'})
 # app.server.static_folder = 'static'
 
-DEBUG_MODE = True
+DEBUG_MODE = False
 DARK_MODE = False
-DEVICE = 'mali'
+DEVICE = 'adreno'
 if DARK_MODE:
     THEME = "plotly_dark"
 else:
@@ -40,16 +40,16 @@ axs_labels = {
     }
 
 # Short mali trace for test
-TRACES = [
-    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-]
+# TRACES = [
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+# ]
 
 # Long adreno trace for test
-# TRACES = [
-#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto"),
-#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto"),
-# ]
+TRACES = [
+    os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto"),
+    os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto"),
+]
 
 # Long adreno trace for test
 # TRACES = [

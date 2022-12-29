@@ -33,6 +33,8 @@ def gpu_query_adreno(tp):
         where ct.name="% Time ALUs Working"
         LIMIT 1""")
     print("Querying to tp is complete: GPU")
+    print(GPU_utilization_details)
+    print(GPU_time_alus_working_details)
     return {
         'gpu_utilization_data': GPU_utilization_data,
         'gpu_utilization_details': GPU_utilization_details,
