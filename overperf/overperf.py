@@ -17,7 +17,7 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 
 DEBUG_MODE = False
 DARK_MODE = False
-DEVICE = 'adreno'
+DEVICE = 'mali'
 if DARK_MODE:
     THEME = "plotly_dark"
 else:
@@ -40,18 +40,18 @@ axs_labels = {
     }
 
 # Short mali trace for test
-# TRACES = [
-#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-# ]
-
-# Long adreno trace for test
 TRACES = [
-    os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto"),
-    os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto"),
+    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
 ]
 
 # Long adreno trace for test
+# TRACES = [
+#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto"),
+#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto"),
+# ]
+
+# Long mali trace for test
 # TRACES = [
 #     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto"),
 #     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto"),
@@ -73,19 +73,15 @@ gpu_data = prepare_pddf_gpu(TRACE_PROCESSORS, DEVICE)
 
 layout_plots_all = [
         LayoutElements.create_plot_fig(
-            battery_data['batt_current_ua'],
             'batt_current_ua'
         ),
         LayoutElements.create_plot_fig(
-            battery_data['batt_charge_uah'],
             'batt_charge_uah'
         ),
         LayoutElements.create_plot_fig(
-            battery_data['batt_capacity_pct'],
             'batt_capacity_pct'
         ),
         LayoutElements.create_plot_fig(
-            gpu_data['gpu_utilization'],
             'gpu_utilization'
         ),
 ]
@@ -93,7 +89,6 @@ layout_plots_all = [
 if DEVICE == PhysicalDeivces.ADRENO:
     layout_plots_all.append(
         LayoutElements.create_plot_fig(
-            gpu_data['gpu_time_alus_working'],
             'gpu_time_alus_working'
         ),
     )
@@ -152,13 +147,7 @@ if DEVICE == PhysicalDeivces.ADRENO:
         theme=THEME
     ).update_fig_callback()
 
-Callback(
-    name='gpu_utilization',
-    app=app,
-    data=gpu_data['gpu_utilization'],
-    axs_labels=axs_labels,
-    theme=THEME
-).download_html_callback()
+Callback.download_html_callback(app)
 
 if __name__ == '__main__':
     app.run_server(debug=DEBUG_MODE)

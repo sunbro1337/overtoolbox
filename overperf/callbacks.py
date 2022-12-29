@@ -59,8 +59,9 @@ class Callback:
             fig.write_html(Callback.save_html_dict[self.name], full_html=False)
             return fig
 
-    def download_html_callback(self):
-        @self.app.callback(
+    @staticmethod
+    def download_html_callback(app):
+        @app.callback(
             Output('download_html_button', 'href'),
             Input('collect_html_button', 'n_clicks'),
 

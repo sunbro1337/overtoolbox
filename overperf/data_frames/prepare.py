@@ -15,6 +15,17 @@ def prepare_pddf(query_data, name):
     df['duration'] = pd.to_datetime(df['duration_ts'], unit='ns')#TODO .dt.strftime(TIME_FORMAT) Specify axis tick value for time
     return df
 
+def agg_pddf(prepared_pddfs: dict):
+    agg_metrics = {
+        'value': ["min", "max", "median", "mean", "skew"],
+    }
+    pddfs_agg = {}
+    for pddf_name in prepared_pddfs:
+        pddfs_agg[f'{pddf_name}_agg'] = prepared_pddfs[pddf_name].agg(agg_metrics)
+    for pddf_name_agg in pddfs_agg:
+        prepared_pddfs[pddf_name_agg] = pddfs_agg[pddf_name_agg]
+    return prepared_pddfs
+
 def prepare_pddf_battery(trace_processors):
     print("Preparing pandas data frames: battery")
     prepared_pddfs = {
@@ -27,6 +38,7 @@ def prepare_pddf_battery(trace_processors):
         prepared_pddfs['batt_current_ua'] = pd.concat([prepared_pddfs['batt_current_ua'], prepare_pddf(batt_qrdf['batt_current_ua'], tp)])
         prepared_pddfs['batt_charge_uah'] = pd.concat([prepared_pddfs['batt_charge_uah'], prepare_pddf(batt_qrdf['batt_charge_uah'], tp)])
         prepared_pddfs['batt_capacity_pct'] = pd.concat([prepared_pddfs['batt_capacity_pct'], prepare_pddf(batt_qrdf['batt_capacity_pct'], tp)])
+        prepared_pddfs = agg_pddf(prepared_pddfs)
     print("For more info about energy metrics see https://perfetto.dev/docs/data-sources/battery-counters")
     print(prepared_pddfs['batt_current_ua'].head(), '\n',
           prepared_pddfs['batt_charge_uah'].head(), '\n',
