@@ -1,13 +1,15 @@
 import os.path
+import io
 
 from perfetto.trace_processor import TraceProcessor
 from dash import Dash
 
-from data_frames.prepare import prepare_pddf_battery, prepare_pddf_gpu
+from data_frames.prepare import prepare_pddf_battery, prepare_pddf_gpu, PhysicalDeivces
 from layout import *
 from callbacks import *
 
-app = Dash(__name__)
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+app = Dash(__name__, external_stylesheets=external_stylesheets)
 # TODO
 # https://dash.plotly.com/external-resources
 # app.css.append_css({'external_url': 'static/background.css'})
@@ -37,19 +39,24 @@ axs_labels = {
         'y': 'Value'
     }
 
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto")
-
-# TRACE_1 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto")
-
-# TRACE_1 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto")
-# TRACE_2 = os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto")
-
+# Short mali trace for test
 TRACES = [
     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
 ]
+
+# Long adreno trace for test
+# TRACES = [
+#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1833.perfetto"),
+#     os.path.join("..", "..", "..", "build", ".agi_traces", "com.lesta.legends.hybrid_20221227_1849.perfetto"),
+# ]
+
+# Long adreno trace for test
+# TRACES = [
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1808.perfetto"),
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto"),
+# ]
+
 NAMES = [
     "com.lesta.legends.hybrid_20221202_1846.perfetto",
     "com.lesta.legends.hybrid_20221202_1846.perfetto",
@@ -64,8 +71,7 @@ print("Loading traces is complete")
 battery_data = prepare_pddf_battery(TRACE_PROCESSORS)
 gpu_data = prepare_pddf_gpu(TRACE_PROCESSORS, DEVICE)
 
-app.layout = html.Div(
-    children=[
+layout_plots_all = [
         LayoutElements.create_plot_fig(
             battery_data['batt_current_ua'],
             'batt_current_ua'
@@ -82,10 +88,29 @@ app.layout = html.Div(
             gpu_data['gpu_utilization'],
             'gpu_utilization'
         ),
-        # LayoutElements.create_plot_fig(
-        #     gpu_data['gpu_time_alus_working'],
-        #     'gpu_time_alus_working'
-        # ),
+]
+
+if DEVICE == PhysicalDeivces.ADRENO:
+    layout_plots_all.append(
+        LayoutElements.create_plot_fig(
+            gpu_data['gpu_time_alus_working'],
+            'gpu_time_alus_working'
+        ),
+    )
+
+app.layout = html.Div(
+    children=[
+        html.A(
+            html.Button("Collect as HTML"),
+            id="collect_html_button",
+        ),
+        html.A(
+            html.Button("Download as HTML"),
+            id="download_html_button",
+            href='',
+            download="plotly_graph.html",
+        ),
+        html.Div(children=layout_plots_all),
     ]
 )
 
@@ -117,13 +142,23 @@ callback_gpu_utilization = Callback(
     axs_labels=axs_labels,
     theme=THEME
 ).update_fig_callback()
-# callback_gpu_time_alus_working = Callback(
-#     name='gpu_time_alus_working',
-#     app=app,
-#     data=gpu_data['gpu_time_alus_working'],
-#     axs_labels=axs_labels,
-#     theme=THEME
-# ).update_fig_callback()
+
+if DEVICE == PhysicalDeivces.ADRENO:
+    callback_gpu_time_alus_working = Callback(
+        name='gpu_time_alus_working',
+        app=app,
+        data=gpu_data['gpu_time_alus_working'],
+        axs_labels=axs_labels,
+        theme=THEME
+    ).update_fig_callback()
+
+Callback(
+    name='gpu_utilization',
+    app=app,
+    data=gpu_data['gpu_utilization'],
+    axs_labels=axs_labels,
+    theme=THEME
+).download_html_callback()
 
 if __name__ == '__main__':
     app.run_server(debug=DEBUG_MODE)

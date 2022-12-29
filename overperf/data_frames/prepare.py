@@ -9,7 +9,6 @@ class PhysicalDeivces:
     POWERVR = 'povervr'
 
 def prepare_pddf(query_data, name):
-    print(query_data)
     df = query_data.as_pandas_dataframe()[["name", "ts", "value"]]
     df['name'] = df['name'] + name
     df['duration_ts'] = df['ts'] - df['ts'][0]
