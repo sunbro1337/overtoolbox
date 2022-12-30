@@ -117,7 +117,8 @@ if DEVICE == PhysicalDeivces.ADRENO:
     )
     layout_plots_all.append(
         LayoutElements.create_table_overall(
-            agg_data=gpu_data['agg_overall']['gpu_time_alus_working']
+            agg_data=gpu_data['agg_overall'],
+            name='gpu_time_alus_working'
         ),
     )
 
