@@ -40,10 +40,10 @@ axs_labels = {
     }
 
 # Short mali trace for test
-TRACES = [
-    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-    os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
-]
+# TRACES = [
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+#     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+# ]
 
 # Long adreno trace for test
 # TRACES = [
@@ -57,9 +57,16 @@ TRACES = [
 #     os.path.join("..", "..", "..", "build", "WOWSC_26131_Enable3DWavesAndDeformation", "com.lesta.legends.hybrid_20221201_1905.perfetto"),
 # ]
 
+TRACES = [
+   os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846.perfetto"),
+   os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846 - Copy.perfetto"),
+   os.path.join("..", "..", "com.lesta.legends.hybrid_20221202_1846 - Copy (2).perfetto"),
+]
+
 NAMES = [
     "com.lesta.legends.hybrid_20221202_1846.perfetto",
-    "com.lesta.legends.hybrid_20221202_1846.perfetto",
+    "com.lesta.legends.hybrid_20221202_1846 - Copy.perfetto",
+    "com.lesta.legends.hybrid_20221202_1846 - Copy (2).perfetto",
 ]
 
 print("Loading traces")
@@ -75,14 +82,30 @@ layout_plots_all = [
         LayoutElements.create_plot_fig(
             'batt_current_ua'
         ),
+        LayoutElements.create_table_overall(
+            agg_data=battery_data['agg_overall'],
+            name='batt_current_ua'
+        ),
         LayoutElements.create_plot_fig(
             'batt_charge_uah'
+        ),
+        LayoutElements.create_table_overall(
+            agg_data=battery_data['agg_overall'],
+            name='batt_charge_uah'
         ),
         LayoutElements.create_plot_fig(
             'batt_capacity_pct'
         ),
+        LayoutElements.create_table_overall(
+            agg_data=battery_data['agg_overall'],
+            name='batt_capacity_pct'
+        ),
         LayoutElements.create_plot_fig(
             'gpu_utilization'
+        ),
+        LayoutElements.create_table_overall(
+            agg_data=gpu_data['agg_overall'],
+            name='gpu_utilization'
         ),
 ]
 
@@ -92,19 +115,27 @@ if DEVICE == PhysicalDeivces.ADRENO:
             'gpu_time_alus_working'
         ),
     )
+    layout_plots_all.append(
+        LayoutElements.create_table_overall(
+            agg_data=gpu_data['agg_overall']['gpu_time_alus_working']
+        ),
+    )
 
 app.layout = html.Div(
     children=[
-        html.A(
-            html.Button("Collect as HTML"),
-            id="collect_html_button",
-        ),
-        html.A(
-            html.Button("Download as HTML"),
-            id="download_html_button",
-            href='',
-            download="plotly_graph.html",
-        ),
+        html.Div(children=[
+            html.A(
+                html.Button("Collect as HTML"),
+                id="collect_html_button",
+            ),
+             html.A(
+                html.Button("Download as HTML"),
+                id="download_html_button",
+                href='',
+                download="plotly_graph.html",
+            ),
+            html.Em("Temporarily only for plots!"),
+        ]),
         html.Div(children=layout_plots_all),
     ]
 )

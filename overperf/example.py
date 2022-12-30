@@ -1,25 +1,31 @@
-import plotly.graph_objects as go
+# Run this app with `python app.py` and
+# visit http://127.0.0.1:8050/ in your web browser.
+
+from dash import Dash, html
 import pandas as pd
 
-df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv')
+df = pd.read_csv('https://gist.githubusercontent.com/chriddyp/c78bf172206ce24f77d6363a2d754b59/raw/c353e8ef842413cae56ae3920b8fd78468aa4cb2/usa-agricultural-exports-2011.csv')
 
-fig = go.Figure(go.Scatter(
-    x = df['Date'],
-    y = df['mavg']
-))
 
-fig.update_xaxes(
-    rangeslider_visible=True,
-    tickformatstops = [
-        dict(dtickrange=[None, 1000], value="%H:%M:%S.%L ms"),
-        dict(dtickrange=[1000, 60000], value="%H:%M:%S s"),
-        dict(dtickrange=[60000, 3600000], value="%H:%M m"),
-        dict(dtickrange=[3600000, 86400000], value="%H:%M h"),
-        dict(dtickrange=[86400000, 604800000], value="%e. %b d"),
-        dict(dtickrange=[604800000, "M1"], value="%e. %b w"),
-        dict(dtickrange=["M1", "M12"], value="%b '%y M"),
-        dict(dtickrange=["M12", None], value="%Y Y")
-    ]
-)
+def generate_table(dataframe, max_rows=10):
+    return html.Table([
+        html.Thead(
+            html.Tr([html.Th(col) for col in dataframe.columns])
+        ),
+        html.Tbody([
+            html.Tr([
+                html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
+            ]) for i in range(min(len(dataframe), max_rows))
+        ])
+    ])
 
-fig.show()
+
+app = Dash(__name__)
+
+app.layout = html.Div([
+    html.H4(children='US Agriculture Exports (2011)'),
+    generate_table(df)
+])
+
+if __name__ == '__main__':
+    app.run_server(debug=True)

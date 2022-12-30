@@ -68,7 +68,7 @@ class Callback:
         )
         def download_html(n_clicks):
             if not n_clicks:
-                return "#"
+                return ""
             print('Start collecting html')
             save_html_buffer = ''
             for string_io in Callback.save_html_dict.values():
