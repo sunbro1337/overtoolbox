@@ -1,0 +1,8 @@
+Global_Frame_Time(ms):
+  GPU_Total:
+    END:
+  CPU_Total(ms):
+    CPU_Draw(ms):
+      END:
+    CPU_Update(ms):
+      END:

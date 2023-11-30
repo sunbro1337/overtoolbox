@@ -1,0 +1,2296 @@
+',' expected (before 'closed')
+line : 12;    pos: 8;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_privacy_settings.unbound()
+Empty expression
+line : 26;    pos: 53;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_privacy_settings.unbound()
+Empty expression
+line : 89;    pos: 50;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_privacy_settings.unbound()
+Expecting key identifier in map expression (before '}')
+line : 25;    pos: 1;     source : gui/unbound/battle/ship_modifiers.unbound()
+a dict expression must be terminated before the text break
+line : 11;    pos: 1;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 133;    pos: 25;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 162;    pos: 25;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 192;    pos: 25;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 212;    pos: 25;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 230;    pos: 23;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 231;    pos: 26;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 232;    pos: 29;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 373;    pos: 23;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 374;    pos: 22;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 375;    pos: 25;     source : gui/unbound/battle/ship_modifiers.unbound()
+Empty expression
+line : 444;    pos: 28;     source : gui/unbound/battle/ship_modifiers.unbound()
+missing condition in ternary expression
+line : 471;    pos: 4;     source : gui/unbound/battle/ship_modifiers.unbound()
+an array expression must be terminated before the text break
+line : 465;    pos: 16;     source : gui/unbound/battle/ship_modifiers.unbound()
+missing condition in ternary expression
+line : 233;    pos: 4;     source : gui/unbound/launcher/loading.unbound()
+an array expression must be terminated before the text break
+line : 95;    pos: 16;     source : gui/unbound/launcher/loading.unbound()
+missing condition in ternary expression
+line : 268;    pos: 5;     source : gui/unbound/launcher/loading.unbound()
+an array expression must be terminated before the text break
+line : 257;    pos: 17;     source : gui/unbound/launcher/loading.unbound()
+missing condition in ternary expression
+line : 299;    pos: 5;     source : gui/unbound/launcher/loading.unbound()
+an array expression must be terminated before the text break
+line : 288;    pos: 17;     source : gui/unbound/launcher/loading.unbound()
+missing condition in ternary expression
+line : 330;    pos: 5;     source : gui/unbound/launcher/loading.unbound()
+an array expression must be terminated before the text break
+line : 319;    pos: 17;     source : gui/unbound/launcher/loading.unbound()
+invalid char - '+'
+line : 1095;    pos: 16;     source : gui/unbound/battle/control_hints.unbound()
+missing condition in ternary expression
+line : 224;    pos: 2;     source : gui/unbound/battle/control_hints.unbound()
+missing condition in ternary expression
+line : 225;    pos: 11;     source : gui/unbound/battle/control_hints.unbound()
+missing condition in ternary expression
+line : 229;    pos: 1;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 218;    pos: 7;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 204;    pos: 45;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 509;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 510;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 506;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 505;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 885;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 886;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 882;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 881;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 913;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 914;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 910;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 909;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 923;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 924;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 920;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 919;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1002;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1003;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 999;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 998;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1036;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1037;    pos: 3;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1033;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1032;    pos: 16;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1046;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1047;    pos: 3;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1043;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1042;    pos: 16;     source : gui/unbound/battle/control_hints.unbound()
+Unnamed argument after named argument: delay
+line : 1095;    pos: 18;     source : gui/unbound/battle/control_hints.unbound()
+missing condition in ternary expression
+line : 1118;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1097;    pos: 16;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1148;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1149;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1145;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1144;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1159;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1160;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1156;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1155;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1226;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1227;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1223;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1222;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1236;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1237;    pos: 4;     source : gui/unbound/battle/control_hints.unbound()
+a dict expression must be terminated before the text break
+line : 1233;    pos: 6;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1232;    pos: 17;     source : gui/unbound/battle/control_hints.unbound()
+missing condition in ternary expression
+line : 1279;    pos: 5;     source : gui/unbound/battle/control_hints.unbound()
+an array expression must be terminated before the text break
+line : 1266;    pos: 18;     source : gui/unbound/battle/control_hints.unbound()
+Empty expression
+line : 1349;    pos: 29;     source : gui/unbound/battle/control_hints.unbound()
+Empty expression
+line : 1455;    pos: 23;     source : gui/unbound/lobby/store/store_item/store_item_bundle_description.unbound()
+Empty expression
+line : 181;    pos: 19;     source : gui/unbound/lobby/modals/modal_manage_role_fleet.unbound()
+Empty expression
+line : 182;    pos: 25;     source : gui/unbound/lobby/modals/modal_manage_role_fleet.unbound()
+Empty expression
+line : 24;    pos: 53;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_winrate_gate_settings.unbound()
+Empty expression
+line : 157;    pos: 50;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_winrate_gate_settings.unbound()
+Empty expression
+line : 6;    pos: 19;     source : gui/unbound/lobby/modals/modal_purchase_confirm/purchase_confirm_bundle.unbound()
+expecting end of expression
+line : 308;    pos: 36;     source : gui/unbound/lobby/event_template/event_template.unbound()
+',' expected (before 'score_icon')
+line : 51;    pos: 13;     source : gui/unbound/system/constants/event_customization.unbound()
+Expecting key identifier in map expression (before '}')
+line : 103;    pos: 7;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+Expecting key identifier in map expression (before ']')
+line : 103;    pos: 8;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+a dict expression must be terminated before the text break
+line : 99;    pos: 17;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+an array expression must be terminated before the text break
+line : 99;    pos: 16;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+Expecting key identifier in map expression (before '}')
+line : 112;    pos: 7;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+Expecting key identifier in map expression (before ']')
+line : 112;    pos: 8;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+a dict expression must be terminated before the text break
+line : 108;    pos: 17;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+an array expression must be terminated before the text break
+line : 108;    pos: 16;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+expecting end of expression
+line : 445;    pos: 41;     source : gui/unbound/battle/battle_shiplist.unbound()
+Empty expression
+line : 3;    pos: 19;     source : gui/unbound/lobby/modals/modal_purchase_confirm/purchase_confirm_boost_ship.unbound()
+',' expected (before 'settingTitle')
+line : 15;    pos: 5;     source : gui/unbound/lobby/settings/settings_tabs/controls_tab.unbound()
+Empty expression
+line : 207;    pos: 27;     source : gui/unbound/lobby/settings/settings_tabs/controls_tab.unbound()
+Empty expression
+line : 208;    pos: 25;     source : gui/unbound/lobby/settings/settings_tabs/controls_tab.unbound()
+Expecting key identifier in map expression (before '}')
+line : 599;    pos: 3;     source : gui/unbound/lobby/tech_tree/tech_tree_ships.unbound()
+a dict expression must be terminated before the text break
+line : 594;    pos: 30;     source : gui/unbound/lobby/tech_tree/tech_tree_ships.unbound()
+missing condition in ternary expression
+line : 150;    pos: 2;     source : gui/unbound/lobby/settings/settings_tabs/account_tab.unbound()
+an array expression must be terminated before the text break
+line : 2;    pos: 1;     source : gui/unbound/lobby/settings/settings_tabs/account_tab.unbound()
+Empty expression
+line : 194;    pos: 27;     source : gui/unbound/lobby/settings/settings_tabs/account_tab.unbound()
+Empty expression
+line : 6;    pos: 19;     source : gui/unbound/lobby/modals/modal_purchase_confirm/purchase_confirm_ship.unbound()
+missing condition in ternary expression
+line : 623;    pos: 6;     source : gui/unbound/battle/post_battle_results.unbound()
+an array expression must be terminated before the text break
+line : 617;    pos: 16;     source : gui/unbound/battle/post_battle_results.unbound()
+missing condition in ternary expression
+line : 649;    pos: 6;     source : gui/unbound/battle/post_battle_results.unbound()
+an array expression must be terminated before the text break
+line : 643;    pos: 16;     source : gui/unbound/battle/post_battle_results.unbound()
+Empty expression
+line : 60;    pos: 22;     source : gui/unbound/battle/controls.unbound()
+Empty expression
+line : 421;    pos: 22;     source : gui/unbound/battle/controls.unbound()
+Empty expression
+line : 497;    pos: 22;     source : gui/unbound/battle/controls.unbound()
+Empty expression
+line : 58;    pos: 19;     source : gui/unbound/shared/atoms/list_selector.unbound()
+Empty expression
+line : 107;    pos: 19;     source : gui/unbound/shared/atoms/list_selector.unbound()
+missing default value of parametr
+line : 590;    pos: 64;     source : gui/unbound/shared/atoms/list_selector.unbound()
+missing default value of parametr
+line : 590;    pos: 111;     source : gui/unbound/shared/atoms/list_selector.unbound()
+Empty expression
+line : 36;    pos: 23;     source : gui/unbound/launcher/extended_launcher.unbound()
+invalid char - '`'
+line : 189;    pos: 0;     source : gui/unbound/lobby/ship_list.unbound()
+invalid char - '`'
+line : 189;    pos: 1;     source : gui/unbound/lobby/ship_list.unbound()
+Expecting key identifier in map expression (before '}')
+line : 222;    pos: 5;     source : gui/unbound/lobby/ship_list.unbound()
+Expecting key identifier in map expression (before ']')
+line : 223;    pos: 4;     source : gui/unbound/lobby/ship_list.unbound()
+a dict expression must be terminated before the text break
+line : 217;    pos: 5;     source : gui/unbound/lobby/ship_list.unbound()
+an array expression must be terminated before the text break
+line : 216;    pos: 16;     source : gui/unbound/lobby/ship_list.unbound()
+Empty expression
+line : 3;    pos: 46;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 11;    pos: 57;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 64;    pos: 45;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 192;    pos: 45;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 281;    pos: 42;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Expecting key identifier in map expression (before ')')
+line : 574;    pos: 62;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+a dict expression must be terminated before the text break
+line : 574;    pos: 44;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+an eval expression literal must be terminated before the text break
+line : 574;    pos: 23;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 738;    pos: 42;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+Empty expression
+line : 971;    pos: 32;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+a hex literal is to long: ea0000000
+line : 464;    pos: 31;     source : gui/unbound/lobby/missions/mission/task_list/task_view.unbound()
+Empty expression
+line : 491;    pos: 22;     source : gui/unbound/lobby/missions/mission/task_list/task_view.unbound()
+Empty expression
+line : 517;    pos: 22;     source : gui/unbound/lobby/missions/mission/task_list/task_view.unbound()
+Empty expression
+line : 595;    pos: 22;     source : gui/unbound/lobby/missions/mission/task_list/task_view.unbound()
+Empty expression
+line : 680;    pos: 22;     source : gui/unbound/lobby/missions/mission/task_list/task_view.unbound()
+Duplicate constant definition: 'POST_BATTLE_TABS'
+line : 3;    pos: 0;     source : gui/unbound/battle/post_battle_results/post_battle_results.unbound()
+Duplicate macro definition: 'GET_POSTBATTLE_INFO'
+line : 7;    pos: 0;     source : gui/unbound/battle/post_battle_results.unbound()
+a dict expression must be terminated before the text break
+line : 270;    pos: 24;     source : gui/unbound/lobby/store/auction/auction_lot_info.unbound()
+Expecting key identifier in map expression (before '}')
+line : 100;    pos: 7;     source : gui/unbound/shared/atoms/common_feedback_items.unbound()
+a dict expression must be terminated before the text break
+line : 95;    pos: 22;     source : gui/unbound/shared/atoms/common_feedback_items.unbound()
+Empty expression
+line : 163;    pos: 157;     source : gui/unbound/shared/atoms/common_feedback_items.unbound()
+Empty expression
+line : 97;    pos: 43;     source : gui/unbound/lobby/fleets/has_fleet/fleet_members.unbound()
+Empty expression
+line : 242;    pos: 22;     source : gui/unbound/lobby/fleets/has_fleet/fleet_members.unbound()
+Empty expression
+line : 363;    pos: 40;     source : gui/unbound/lobby/fleets/has_fleet/fleet_members.unbound()
+Empty expression
+line : 583;    pos: 25;     source : gui/unbound/lobby/fleets/has_fleet/fleet_members.unbound()
+Empty expression
+line : 588;    pos: 32;     source : gui/unbound/lobby/fleets/has_fleet/fleet_members.unbound()
+expecting end of expression
+line : 137;    pos: 119;     source : gui/unbound/shared/atoms/punishment_system_warning.unbound()
+Expecting key identifier in map expression (before '}')
+line : 239;    pos: 8;     source : gui/unbound/shared/atoms/reward_item.unbound()
+a dict expression must be terminated before the text break
+line : 236;    pos: 25;     source : gui/unbound/shared/atoms/reward_item.unbound()
+extra arguments in getter/setter s-expression
+line : 145;    pos: 47;     source : gui/unbound/lobby/store/store_item/store_bundle_coupon_container.unbound()
+an eval expression literal must be terminated before the text break
+line : 158;    pos: 18;     source : gui/unbound/lobby/battle_type_menu/event_alpha_info.unbound()
+missing condition in ternary expression
+line : 155;    pos: 6;     source : gui/unbound/lobby/progress/progress_reel/progress_modification_selector.unbound()
+an array expression must be terminated before the text break
+line : 150;    pos: 20;     source : gui/unbound/lobby/progress/progress_reel/progress_modification_selector.unbound()
+Empty expression
+line : 603;    pos: 35;     source : gui/unbound/lobby/progress/progress_reel/progress_modification_selector.unbound()
+Empty expression
+line : 604;    pos: 26;     source : gui/unbound/lobby/progress/progress_reel/progress_modification_selector.unbound()
+Empty expression
+line : 297;    pos: 57;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 297;    pos: 96;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 297;    pos: 120;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 408;    pos: 49;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 408;    pos: 88;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 408;    pos: 112;     source : gui/unbound/lobby/random_battle.unbound()
+Empty expression
+line : 408;    pos: 137;     source : gui/unbound/lobby/random_battle.unbound()
+Expecting key identifier in map expression (before '}')
+line : 724;    pos: 6;     source : gui/unbound/lobby/splashes/acc_level_update.unbound()
+a dict expression must be terminated before the text break
+line : 719;    pos: 28;     source : gui/unbound/lobby/splashes/acc_level_update.unbound()
+Empty expression
+line : 479;    pos: 24;     source : gui/unbound/shared/molecules/reward_description.unbound()
+',' expected (before 'descriptionIDS')
+line : 207;    pos: 21;     source : gui/unbound/shared/atoms/onboarding_hints/battle_hints/onboarding_battle_hints_customization.unbound()
+',' expected (before 'iconSize')
+line : 692;    pos: 21;     source : gui/unbound/shared/atoms/onboarding_hints/battle_hints/onboarding_battle_hints_customization.unbound()
+invalid char - '|'
+line : 49;    pos: 26;     source : gui/unbound/lobby/campaign_pass/campaign_pass_main_screen/mission_category_shortcut.unbound()
+extra arguments in getter/setter s-expression
+line : 49;    pos: 33;     source : gui/unbound/lobby/campaign_pass/campaign_pass_main_screen/mission_category_shortcut.unbound()
+Expecting key identifier in map expression (before '}')
+line : 7;    pos: 5;     source : gui/unbound/launcher/splashes/custom/large_download_screen.unbound()
+a dict expression must be terminated before the text break
+line : 2;    pos: 4;     source : gui/unbound/launcher/splashes/custom/large_download_screen.unbound()
+Empty expression
+line : 59;    pos: 53;     source : gui/unbound/lobby/fleets/has_no_fleet/create_fleet.unbound()
+missing condition in ternary expression
+line : 25;    pos: 16;     source : gui/unbound/launcher/splashes/custom/download_decline_screen.unbound()
+missing condition in ternary expression
+line : 26;    pos: 3;     source : gui/unbound/launcher/splashes/custom/download_decline_screen.unbound()
+an array expression must be terminated before the text break
+line : 19;    pos: 25;     source : gui/unbound/launcher/splashes/custom/download_decline_screen.unbound()
+a dict expression must be terminated before the text break
+line : 8;    pos: 25;     source : gui/unbound/launcher/splashes/custom/download_decline_screen.unbound()
+Expecting key identifier in map expression (before ':')
+line : 865;    pos: 17;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+Expecting key identifier in map expression (before '{')
+line : 865;    pos: 19;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+Duplicate key in dict: openOverlayInstallation
+line : 864;    pos: 43;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+missing false alternative expression after ':' in ternary expression
+line : 864;    pos: 22;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+'dict' - invalid property 'customLabels' value - [null]
+line : 860;    pos: 24;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+a dict expression must be terminated before the text break
+line : 860;    pos: 24;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+Empty expression
+line : 991;    pos: 28;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+Empty expression
+line : 292;    pos: 26;     source : gui/unbound/lobby/port_widget/quick_transitions/quick_transitions.unbound()
+Empty expression
+line : 197;    pos: 22;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+missing condition in ternary expression
+line : 328;    pos: 4;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+an array expression must be terminated before the text break
+line : 315;    pos: 16;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+missing condition in ternary expression
+line : 582;    pos: 34;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+'dict' - invalid property '_isInvert' value - [null]
+line : 582;    pos: 12;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+Expecting key identifier in map expression (before '50')
+line : 582;    pos: 36;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+Expecting key identifier in map expression (before ':')
+line : 582;    pos: 40;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+Expecting key identifier in map expression (before '-')
+line : 582;    pos: 42;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+Expecting key identifier in map expression (before '50')
+line : 582;    pos: 43;     source : gui/unbound/lobby/modals/modal_tutorial_ship_selection.unbound()
+an eval expression literal must be terminated before the text break
+line : 6;    pos: 27;     source : gui/unbound/launcher/splashes/linkage_conflict_splash.unbound()
+Empty expression
+line : 261;    pos: 96;     source : gui/unbound/lobby/modals/modals_ship/modal_increase_upgrade.unbound()
+missing condition in ternary expression
+line : 173;    pos: 118;     source : gui/unbound/lobby/event_template/event_template_calendar.unbound()
+missing condition in ternary expression
+line : 406;    pos: 120;     source : gui/unbound/lobby/event_template/event_template_calendar.unbound()
+Expecting key identifier in map expression (before '}')
+line : 314;    pos: 9;     source : gui/unbound/lobby/battle_type_menu/leaderboard_info/leaderboard_table.unbound()
+a dict expression must be terminated before the text break
+line : 312;    pos: 27;     source : gui/unbound/lobby/battle_type_menu/leaderboard_info/leaderboard_table.unbound()
+Expecting key identifier in map expression (before '}')
+line : 206;    pos: 5;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_emblem_view.unbound()
+Expecting key identifier in map expression (before ']')
+line : 206;    pos: 6;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_emblem_view.unbound()
+a dict expression must be terminated before the text break
+line : 204;    pos: 17;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_emblem_view.unbound()
+an array expression must be terminated before the text break
+line : 204;    pos: 16;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_emblem_view.unbound()
+Empty expression
+line : 98;    pos: 22;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+Expecting key identifier in map expression (before '}')
+line : 485;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+a dict expression must be terminated before the text break
+line : 462;    pos: 26;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+Expecting key identifier in map expression (before '}')
+line : 888;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+a dict expression must be terminated before the text break
+line : 865;    pos: 26;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+',' expected (before 'AirCarrier')
+line : 415;    pos: 7;     source : gui/unbound/system/constants.unbound()
+Empty expression
+line : 364;    pos: 25;     source : gui/unbound/lobby/stats/stats_content.unbound()
+an eval expression literal must be terminated before the text break
+line : 172;    pos: 84;     source : gui/unbound/battle/legendary_skills.unbound()
+Empty expression
+line : 3;    pos: 19;     source : gui/unbound/lobby/modals/modal_purchase_confirm/purchase_confirm_unfreeze_ship.unbound()
+a dict expression must be terminated before the text break
+line : 3;    pos: 24;     source : gui/unbound/battle/key_indicator.unbound()
+an eval expression literal must be terminated before the text break
+line : 260;    pos: 17;     source : gui/unbound/lobby/store/coupons_library/selected_coupon_info/selected_coupon_description.unbound()
+Duplicate macro definition: 'MP_PRIVILEGE'
+line : 241;    pos: 0;     source : gui/unbound/lobby/social_window/looking_for_division.unbound()
+Empty expression
+line : 55;    pos: 22;     source : gui/unbound/battle/controls_movement.unbound()
+Duplicate constant definition: 'POST_BATTLE_APPEAR_DELAY'
+line : 2;    pos: 0;     source : gui/unbound/battle/post_battle_results/post_battle_personal_results.unbound()
+Expecting key identifier in map expression (before '}')
+line : 35;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a dict expression must be terminated before the text break
+line : 23;    pos: 30;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before '}')
+line : 68;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a dict expression must be terminated before the text break
+line : 56;    pos: 34;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a string literal must be terminated before the line break
+line : 187;    pos: 59;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Empty expression
+line : 340;    pos: 24;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Empty expression
+line : 341;    pos: 25;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+missing condition in ternary expression
+line : 710;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+an array expression must be terminated before the text break
+line : 704;    pos: 15;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before '}')
+line : 725;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before ']')
+line : 726;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a dict expression must be terminated before the text break
+line : 721;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+an array expression must be terminated before the text break
+line : 720;    pos: 15;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before '}')
+line : 737;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before ']')
+line : 738;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a dict expression must be terminated before the text break
+line : 733;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+an array expression must be terminated before the text break
+line : 732;    pos: 15;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Empty expression
+line : 993;    pos: 23;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before '}')
+line : 1180;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+Expecting key identifier in map expression (before ']')
+line : 1181;    pos: 3;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+a dict expression must be terminated before the text break
+line : 1176;    pos: 4;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+an array expression must be terminated before the text break
+line : 1175;    pos: 15;     source : gui/unbound/lobby/modals/modal_linkage_warning.unbound()
+expecting end of expression
+line : 190;    pos: 38;     source : gui/unbound/lobby/loadout/loadout_params.unbound()
+expecting end of expression
+line : 389;    pos: 31;     source : gui/unbound/lobby/loadout/loadout_params.unbound()
+missing default value of parametr
+line : 144;    pos: 1;     source : gui/unbound/battle/post_battle_results/post_battle_column/post_battle_currency_column.unbound()
+missing condition in ternary expression
+line : 62;    pos: 2;     source : gui/unbound/lobby/player_profile/summary.unbound()
+an array expression must be terminated before the text break
+line : 53;    pos: 27;     source : gui/unbound/lobby/player_profile/summary.unbound()
+Expecting key identifier in map expression (before '}')
+line : 233;    pos: 8;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Expecting key identifier in map expression (before '{')
+line : 235;    pos: 8;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Duplicate key in dict: frame
+line : 229;    pos: 9;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Duplicate key in dict: from
+line : 229;    pos: 9;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Duplicate key in dict: to
+line : 229;    pos: 9;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Expecting key identifier in map expression (before '}')
+line : 239;    pos: 8;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Expecting key identifier in map expression (before ']')
+line : 240;    pos: 7;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+a dict expression must be terminated before the text break
+line : 229;    pos: 9;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+an array expression must be terminated before the text break
+line : 228;    pos: 20;     source : gui/unbound/lobby/lootboxes/open_all_lootboxes_splash.unbound()
+Empty expression
+line : 105;    pos: 34;     source : gui/unbound/lobby/commander/commander_profile/commander_profile_info_rank.unbound()
+Empty expression
+line : 106;    pos: 40;     source : gui/unbound/lobby/commander/commander_profile/commander_profile_info_rank.unbound()
+Empty expression
+line : 107;    pos: 28;     source : gui/unbound/lobby/commander/commander_profile/commander_profile_info_rank.unbound()
+missing default value of parametr
+line : 1;    pos: 127;     source : gui/unbound/system/scroll.unbound()
+a dict expression must be terminated before the text break
+line : 396;    pos: 29;     source : gui/unbound/lobby/store/store_item/store_item_reward_image.unbound()
+an eval expression literal must be terminated before the text break
+line : 292;    pos: 13;     source : gui/unbound/lobby/bureau/assignment_windows/cards_view/segment_assign_cards_common.unbound()
+$ can only be the beginning of a ident
+line : 312;    pos: 23;     source : gui/unbound/battle/squadron_hud/squadron_reticle.unbound()
+$ can only be the beginning of a ident
+line : 313;    pos: 20;     source : gui/unbound/battle/squadron_hud/squadron_reticle.unbound()
+expecting end of expression
+line : 96;    pos: 49;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+expecting end of expression
+line : 134;    pos: 43;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+expecting end of expression
+line : 296;    pos: 46;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+Empty expression
+line : 335;    pos: 26;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+Empty expression
+line : 337;    pos: 32;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+Empty expression
+line : 338;    pos: 33;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+Empty expression
+line : 345;    pos: 30;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/player_fleet_settings.unbound()
+Empty expression
+line : 21;    pos: 53;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_tier_gate_settings.unbound()
+Empty expression
+line : 202;    pos: 50;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_tier_gate_settings.unbound()
+expecting end of expression
+line : 70;    pos: 10;     source : gui/unbound/shared/atoms/rank_badge.unbound()
+an eval expression literal must be terminated before the text break
+line : 269;    pos: 13;     source : gui/unbound/lobby/campaign_pass/new_camp_pass_modal.unbound()
+missing default value of parametr
+line : 10;    pos: 2;     source : gui/unbound/shared/atoms/commander/commander_card.unbound()
+Empty expression
+line : 129;    pos: 22;     source : gui/unbound/lobby/ship_list/ship_reel.unbound()
+missing value in pair
+line : 169;    pos: 46;     source : gui/unbound/lobby/ship_list/ship_reel.unbound()
+$ can only be the beginning of a ident
+line : 713;    pos: 11;     source : gui/unbound/lobby/main_menu/primary_menu.unbound()
+Empty expression
+line : 170;    pos: 28;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Empty expression
+line : 208;    pos: 53;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Empty expression
+line : 242;    pos: 18;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Empty expression
+line : 274;    pos: 50;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Expecting key identifier in map expression (before '}')
+line : 402;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before ']')
+line : 403;    pos: 4;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+a dict expression must be terminated before the text break
+line : 398;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+an array expression must be terminated before the text break
+line : 397;    pos: 16;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before '}')
+line : 413;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before ']')
+line : 414;    pos: 4;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+a dict expression must be terminated before the text break
+line : 409;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+an array expression must be terminated before the text break
+line : 408;    pos: 16;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before '}')
+line : 441;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before ']')
+line : 442;    pos: 4;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+a dict expression must be terminated before the text break
+line : 437;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+an array expression must be terminated before the text break
+line : 436;    pos: 16;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before '}')
+line : 452;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before ']')
+line : 453;    pos: 4;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+a dict expression must be terminated before the text break
+line : 448;    pos: 5;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+an array expression must be terminated before the text break
+line : 447;    pos: 16;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+Expecting key identifier in map expression (before '}')
+line : 175;    pos: 8;     source : gui/unbound/lobby/ship_list/ship_filter.unbound()
+a dict expression must be terminated before the text break
+line : 170;    pos: 24;     source : gui/unbound/lobby/ship_list/ship_filter.unbound()
+missing condition in ternary expression
+line : 35;    pos: 0;     source : gui/unbound/battle/markers.unbound()
+an array expression must be terminated before the text break
+line : 16;    pos: 36;     source : gui/unbound/battle/markers.unbound()
+expecting end of expression
+line : 24;    pos: 156;     source : gui/unbound/lobby/commander/commander_profile/commander_profile_info_panel.unbound()
+',' expected (before 'UnfreezeShip')
+line : 6;    pos: 2;     source : gui/unbound/lobby/modals/modal_purchase_confirm.unbound()
+missing condition in ternary expression
+line : 47;    pos: 6;     source : gui/unbound/battle/scenario_tag.unbound()
+an array expression must be terminated before the text break
+line : 30;    pos: 16;     source : gui/unbound/battle/scenario_tag.unbound()
+missing condition in ternary expression
+line : 77;    pos: 6;     source : gui/unbound/battle/scenario_tag.unbound()
+an array expression must be terminated before the text break
+line : 64;    pos: 16;     source : gui/unbound/battle/scenario_tag.unbound()
+Expecting key identifier in map expression (before ':')
+line : 302;    pos: 35;     source : gui/unbound/lobby/store.unbound()
+Expecting key identifier in map expression (before ':')
+line : 303;    pos: 39;     source : gui/unbound/lobby/store.unbound()
+Expecting key identifier in map expression (before ':')
+line : 307;    pos: 40;     source : gui/unbound/lobby/store.unbound()
+Expecting key identifier in map expression (before ':')
+line : 308;    pos: 34;     source : gui/unbound/lobby/store.unbound()
+Expecting key identifier in map expression (before '}')
+line : 622;    pos: 2;     source : gui/unbound/lobby/store.unbound()
+a dict expression must be terminated before the text break
+line : 614;    pos: 27;     source : gui/unbound/lobby/store.unbound()
+Empty expression
+line : 86;    pos: 22;     source : gui/unbound/battle/minimap.unbound()
+missing condition in ternary expression
+line : 34;    pos: 3;     source : gui/unbound/lobby/ranked_battles/rank_details/rank_main_panel.unbound()
+an array expression must be terminated before the text break
+line : 23;    pos: 15;     source : gui/unbound/lobby/ranked_battles/rank_details/rank_main_panel.unbound()
+Expecting key identifier in map expression (before '}')
+line : 119;    pos: 0;     source : gui/unbound/battle/main_hud.unbound()
+a dict expression must be terminated before the text break
+line : 63;    pos: 28;     source : gui/unbound/battle/main_hud.unbound()
+Empty expression
+line : 687;    pos: 29;     source : gui/unbound/battle/main_hud.unbound()
+Empty expression
+line : 901;    pos: 29;     source : gui/unbound/battle/main_hud.unbound()
+missing condition in ternary expression
+line : 422;    pos: 79;     source : gui/unbound/lobby/notifications/notification_splash_screen/commander_received.unbound()
+expecting end of expression
+line : 377;    pos: 36;     source : gui/unbound/lobby/main_menu/menu_backgrounds.unbound()
+expecting end of expression
+line : 56;    pos: 9;     source : gui/unbound/lobby/battle_type_menu/leaderboard_info/leaderboard_rewards.unbound()
+expecting end of expression
+line : 127;    pos: 9;     source : gui/unbound/lobby/battle_type_menu/leaderboard_info/leaderboard_rewards.unbound()
+expecting end of expression
+line : 488;    pos: 9;     source : gui/unbound/lobby/battle_type_menu/leaderboard_info/leaderboard_rewards.unbound()
+Expecting key identifier in map expression (before '}')
+line : 22;    pos: 2;     source : gui/unbound/lobby/notifications/notification_banner/slim_notification.unbound()
+a dict expression must be terminated before the text break
+line : 20;    pos: 34;     source : gui/unbound/lobby/notifications/notification_banner/slim_notification.unbound()
+an eval expression literal must be terminated before the text break
+line : 68;    pos: 14;     source : gui/unbound/lobby/notifications/notification_banner/slim_notification.unbound()
+Expecting key identifier in map expression (before '}')
+line : 306;    pos: 3;     source : gui/unbound/lobby/modals/modal_daily_reward.unbound()
+a dict expression must be terminated before the text break
+line : 303;    pos: 22;     source : gui/unbound/lobby/modals/modal_daily_reward.unbound()
+Duplicate constant definition: 'MAX_PLAYERS_IN_DIVISION'
+line : 2;    pos: 0;     source : gui/unbound/shared/molecules/account_resource_menu.unbound()
+missing condition in ternary expression
+line : 1608;    pos: 107;     source : gui/unbound/shared/molecules/account_resource_menu.unbound()
+an array expression must be terminated before the text break
+line : 1608;    pos: 14;     source : gui/unbound/shared/molecules/account_resource_menu.unbound()
+Empty expression
+line : 65;    pos: 26;     source : gui/unbound/lobby/fleets/has_fleet/fleet_upgrades.unbound()
+Empty expression
+line : 111;    pos: 41;     source : gui/unbound/lobby/fleets/has_fleet/fleet_upgrades.unbound()
+Empty expression
+line : 390;    pos: 31;     source : gui/unbound/lobby/fleets/has_fleet/fleet_upgrades.unbound()
+Expecting key identifier in map expression (before '}')
+line : 94;    pos: 4;     source : gui/unbound/lobby/store/store_minified_tab.unbound()
+a dict expression must be terminated before the text break
+line : 91;    pos: 23;     source : gui/unbound/lobby/store/store_minified_tab.unbound()
+Empty expression
+line : 476;    pos: 29;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_download_full_client.unbound()
+Empty expression
+line : 477;    pos: 23;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_download_full_client.unbound()
+Empty expression
+line : 621;    pos: 23;     source : gui/unbound/battle/game_menu/hud_info_panel.unbound()
+Empty expression
+line : 622;    pos: 22;     source : gui/unbound/battle/game_menu/hud_info_panel.unbound()
+Empty expression
+line : 623;    pos: 28;     source : gui/unbound/battle/game_menu/hud_info_panel.unbound()
+Empty expression
+line : 624;    pos: 25;     source : gui/unbound/battle/game_menu/hud_info_panel.unbound()
+Empty expression
+line : 54;    pos: 37;     source : gui/unbound/lobby/fleets/has_no_fleet/search_fleets_by_preferences.unbound()
+a dict expression must be terminated before the text break
+line : 389;    pos: 24;     source : gui/unbound/lobby/collection_card/collection_card_wrapper.unbound()
+missing condition in ternary expression
+line : 933;    pos: 6;     source : gui/unbound/lobby/collection_card/collection_card_wrapper.unbound()
+an array expression must be terminated before the text break
+line : 922;    pos: 14;     source : gui/unbound/lobby/collection_card/collection_card_wrapper.unbound()
+Expecting key identifier in map expression (before '}')
+line : 325;    pos: 7;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before ']')
+line : 325;    pos: 8;     source : gui/unbound/battle/quick_commands.unbound()
+a dict expression must be terminated before the text break
+line : 321;    pos: 17;     source : gui/unbound/battle/quick_commands.unbound()
+an array expression must be terminated before the text break
+line : 321;    pos: 16;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before '}')
+line : 334;    pos: 7;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before ']')
+line : 334;    pos: 8;     source : gui/unbound/battle/quick_commands.unbound()
+a dict expression must be terminated before the text break
+line : 330;    pos: 17;     source : gui/unbound/battle/quick_commands.unbound()
+an array expression must be terminated before the text break
+line : 330;    pos: 16;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before '}')
+line : 406;    pos: 5;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before ']')
+line : 406;    pos: 6;     source : gui/unbound/battle/quick_commands.unbound()
+a dict expression must be terminated before the text break
+line : 402;    pos: 17;     source : gui/unbound/battle/quick_commands.unbound()
+an array expression must be terminated before the text break
+line : 402;    pos: 16;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before '}')
+line : 415;    pos: 5;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before ']')
+line : 415;    pos: 6;     source : gui/unbound/battle/quick_commands.unbound()
+a dict expression must be terminated before the text break
+line : 411;    pos: 17;     source : gui/unbound/battle/quick_commands.unbound()
+an array expression must be terminated before the text break
+line : 411;    pos: 16;     source : gui/unbound/battle/quick_commands.unbound()
+Expecting key identifier in map expression (before '[')
+line : 289;    pos: 50;     source : gui/unbound/lobby/player_profile/dogtags/dogtags_list.unbound()
+Expecting key identifier in map expression (before ']')
+line : 289;    pos: 102;     source : gui/unbound/lobby/player_profile/dogtags/dogtags_list.unbound()
+Expecting key identifier in map expression (before '}')
+line : 262;    pos: 2;     source : gui/unbound/shared/molecules/buy_gold_modal.unbound()
+a dict expression must be terminated before the text break
+line : 256;    pos: 24;     source : gui/unbound/shared/molecules/buy_gold_modal.unbound()
+invalid char - '`'
+line : 78;    pos: 30;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+invalid char - '`'
+line : 78;    pos: 31;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+Expecting key identifier in map expression (before ']')
+line : 69;    pos: 5;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+a dict expression must be terminated before the text break
+line : 65;    pos: 6;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+an array expression must be terminated before the text break
+line : 64;    pos: 17;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+expecting end of expression
+line : 118;    pos: 106;     source : gui/unbound/lobby/notifications/notification_splash_screen/notification_splash_brawl_start.unbound()
+an eval expression literal must be terminated before the text break
+line : 230;    pos: 14;     source : gui/unbound/lobby/missions/missions_categories/mission_view.unbound()
+an eval expression literal must be terminated before the text break
+line : 253;    pos: 14;     source : gui/unbound/lobby/missions/missions_categories/mission_view.unbound()
+an eval expression literal must be terminated before the text break
+line : 293;    pos: 14;     source : gui/unbound/lobby/missions/missions_categories/mission_view.unbound()
+Expecting key identifier in map expression (before '}')
+line : 21;    pos: 2;     source : gui/unbound/shared/linkage_data_platform.unbound()
+a dict expression must be terminated before the text break
+line : 17;    pos: 35;     source : gui/unbound/shared/linkage_data_platform.unbound()
+Expecting key identifier in map expression (before '}')
+line : 59;    pos: 13;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_loadout.unbound()
+a dict expression must be terminated before the text break
+line : 48;    pos: 24;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_loadout.unbound()
+parsing key error in dict or missing rightcurly
+line : 160;    pos: 1;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+',' expected (before 'openCampaign')
+line : 160;    pos: 2;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+parsing key error in dict or missing rightcurly
+line : 161;    pos: 1;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+',' expected (before 'openBundle')
+line : 161;    pos: 2;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+Duplicate key in dict: openBundle
+line : 161;    pos: 40;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+parsing key error in dict or missing rightcurly
+line : 162;    pos: 1;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+',' expected (before 'openShipManagement')
+line : 162;    pos: 2;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+Duplicate key in dict: openShipManagement
+line : 163;    pos: 1;     source : gui/unbound/shared/molecules/dynamic_legend_action_ids_map.unbound()
+Expecting key identifier in map expression (before '}')
+line : 36;    pos: 1;     source : gui/unbound/battle/scenario_tracker.unbound()
+a dict expression must be terminated before the text break
+line : 17;    pos: 41;     source : gui/unbound/battle/scenario_tracker.unbound()
+expecting end of expression
+line : 106;    pos: 119;     source : gui/unbound/lobby/store/store_auction_tab.unbound()
+an eval expression literal must be terminated before the text break
+line : 281;    pos: 14;     source : gui/unbound/lobby/campaign_pass/campaign_pass_main_screen/campaign_pass_reward_preview.unbound()
+an eval expression literal must be terminated before the text break
+line : 16;    pos: 10;     source : gui/unbound/lobby/loadout/loadout_aircarrier/carrier_loadout_ammo.unbound()
+a dict expression must be terminated before the text break
+line : 144;    pos: 28;     source : gui/unbound/lobby/loadout/loadout_aircarrier/carrier_loadout_ammo.unbound()
+expecting end of expression
+line : 54;    pos: 33;     source : gui/unbound/battle/situation_indicators/weather_indicator.unbound()
+Expecting key identifier in map expression (before '}')
+line : 206;    pos: 2;     source : gui/unbound/lobby/ranked_battles/rank_details.unbound()
+a dict expression must be terminated before the text break
+line : 202;    pos: 23;     source : gui/unbound/lobby/ranked_battles/rank_details.unbound()
+Empty expression
+line : 395;    pos: 23;     source : gui/unbound/lobby/progress/progress_reel/progress_ship_items.unbound()
+Duplicate constant definition: 'STORE_COUPON_HEIGHT'
+line : 1;    pos: 0;     source : gui/unbound/lobby/store/coupons_library/coupons_list.unbound()
+Duplicate constant definition: 'STORE_COUPON_WIDHT'
+line : 2;    pos: 0;     source : gui/unbound/lobby/store/coupons_library/coupons_list.unbound()
+expecting end of expression
+line : 304;    pos: 90;     source : gui/unbound/lobby/fleets/has_fleet/fleet_crates_modal_window.unbound()
+Empty expression
+line : 345;    pos: 33;     source : gui/unbound/lobby/battle_type_menu/brawl_info.unbound()
+Empty expression
+line : 346;    pos: 31;     source : gui/unbound/lobby/battle_type_menu/brawl_info.unbound()
+Empty expression
+line : 347;    pos: 33;     source : gui/unbound/lobby/battle_type_menu/brawl_info.unbound()
+expecting end of expression
+line : 370;    pos: 137;     source : gui/unbound/lobby/battle_type_menu/brawl_info.unbound()
+undefined macro definition 'HAS_FLEETS_WINDOW_STRUCTURE'
+line : 240;    pos: 1;     source : gui/unbound/lobby/has_no_fleet.unbound()
+undefined macro definition 'HAS_FLEETS_WINDOW_STRUCTURE'
+line : 304;    pos: 1;     source : gui/unbound/lobby/has_no_fleet.unbound()
+undefined macro definition 'GET_SHIP_SHIP_DETAILS_CAMO_PREVIEW_STATE'
+line : 8;    pos: 1;     source : gui/unbound/lobby/loadout/loadout_details/details_camo.unbound()
+undefined macro definition 'EMAIL_REQUEST_DATA'
+line : 32;    pos: 1;     source : gui/unbound/launcher/splashes/email_request.unbound()
+undefined macro definition 'FLEET_CRATES_DATA'
+line : 736;    pos: 4;     source : gui/unbound/lobby/fleets/has_fleet/fleet_observe.unbound()
+undefined macro definition 'DATA_FLEET_MENU'
+line : 117;    pos: 1;     source : gui/unbound/lobby/modals/modal_fleet.unbound()
+undefined macro definition 'CHECK_PECULIARITY_LOCK_OVERLAY'
+line : 286;    pos: 2;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+undefined macro definition 'CHECK_PECULIARITY_LOCK_OVERLAY'
+line : 840;    pos: 2;     source : gui/unbound/lobby/commander/commander_profile/commander_overlay.unbound()
+can't find argument #1 (featureName)
+line : 3;    pos: 1;     source : gui/unbound/shared/atoms/account_resource/account_resource_default.unbound()
+undefined macro definition 'DEFAULT_NOTIFICATION_DATA'
+line : 6;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_controller_view.unbound()
+undefined macro definition 'COMMANDER_RECEIVED_SPLASH_DATA'
+line : 21;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_controller_view.unbound()
+undefined macro definition 'ABUSER_STATUS_NOTIFICATION_DATA'
+line : 28;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_controller_view.unbound()
+undefined macro definition 'CROSSPLAY_INVITE_NOTIFICATION_DATA'
+line : 36;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_controller_view.unbound()
+undefined macro definition 'ONBOARDING_STATE_GETTER'
+line : 324;    pos: 1;     source : gui/unbound/battle/main_hud.unbound()
+undefined macro definition 'GET_CURRENT_EVENT_DEATHMATCH'
+line : 110;    pos: 1;     source : gui/unbound/lobby/battle_loading.unbound()
+undefined macro definition 'EV_CLOSE_NOTIFICATION'
+line : 47;    pos: 1;     source : gui/unbound/lobby/notifications/notification_banner/slim_notification.unbound()
+undefined macro definition 'GET_CURRENT_RESEARCHING_PROJECT_INDEX'
+line : 14;    pos: 1;     source : gui/unbound/lobby/bureau.unbound()
+undefined macro definition 'DATA_SOCIAL'
+line : 17;    pos: 1;     source : gui/unbound/lobby/social_window.unbound()
+undefined macro definition 'NICKNAME_VALIDATION_CODES_MACRO'
+line : 5;    pos: 2;     source : gui/unbound/launcher/splashes/mobile_nickname_interactions.unbound()
+undefined macro definition 'DEFAULT_NOTIFICATION_DATA'
+line : 7;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_renderer_view.unbound()
+undefined macro definition 'COMMANDER_RECEIVED_SPLASH_DATA'
+line : 219;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_renderer_view.unbound()
+undefined macro definition 'CROSSPLAY_INVITE_NOTIFICATION_DATA'
+line : 437;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_renderer_view.unbound()
+undefined macro definition 'GET_SHIP_SHIP_DETAILS_CAMO_PREVIEW_STATE'
+line : 5;    pos: 1;     source : gui/unbound/lobby/loadout/loadout_details/details_consumables.unbound()
+undefined macro definition 'BUREAU_IMAGE_PRELOAD_EVENTS'
+line : 480;    pos: 1;     source : gui/unbound/launcher/launcher_slider.unbound()
+undefined macro definition 'BUREAU_IMAGE_PRELOADER'
+line : 492;    pos: 2;     source : gui/unbound/launcher/launcher_slider.unbound()
+undefined macro definition 'NOTIFICATION_SPLASH_DEFAULT_DATA'
+line : 6;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_splashes/notification_log_splash_controller_view.unbound()
+undefined macro definition 'NOTIFICATION_SPLASH_OFFENDER_STATUS_DATA'
+line : 41;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_splashes/notification_log_splash_controller_view.unbound()
+undefined macro definition 'RTX_CHECKER_DATA'
+line : 341;    pos: 2;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_loadout.unbound()
+undefined macro definition 'NOTIFICATION_SPLASH_DEFAULT_DATA'
+line : 7;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_splashes/notification_log_splash_renderer_view.unbound()
+undefined macro definition 'NOTIFICATION_SPLASH_OFFENDER_STATUS_DATA'
+line : 170;    pos: 2;     source : gui/unbound/lobby/notifications/notification_log/notification_log_splashes/notification_log_splash_renderer_view.unbound()
+undefined macro definition 'FLEET_CRATES_DATA'
+line : 38;    pos: 4;     source : gui/unbound/lobby/fleets/has_fleet/fleet_crates_modal_window.unbound()
+Duplicate element definition: 'PostBattleBackground'
+line : 21;    pos: 0;     source : gui/unbound/battle/post_battle_results.unbound()
+Duplicate element definition: 'PostBattleDataWindow'
+line : 119;    pos: 0;     source : gui/unbound/battle/post_battle_results/post_battle_results.unbound()
+Duplicate element definition: 'PostBattleContent'
+line : 177;    pos: 0;     source : gui/unbound/battle/post_battle_results/post_battle_results.unbound()
+Duplicate element definition: 'AccountLevelChangeConsoleContainer'
+line : 1;    pos: 0;     source : gui/unbound/lobby/account_level/account_level_change.unbound()
+Duplicate element definition: 'FeaturesUpgrade'
+line : 15;    pos: 0;     source : gui/unbound/lobby/account_level/account_level_splash_old_content.unbound()
+Duplicate element definition: 'WelcomeScreen'
+line : 230;    pos: 0;     source : gui/unbound/lobby/account_level/account_level_splash_old_content.unbound()
+Duplicate element definition: 'UnlockedFeaturesView'
+line : 341;    pos: 0;     source : gui/unbound/lobby/account_level/account_level_splash_old_content.unbound()
+Duplicate element definition: 'ModernizationActivationReason'
+line : 374;    pos: 0;     source : gui/unbound/lobby/progress/progress_reel/selected_progress_modification.unbound()
+Duplicate element definition: 'AchievementReason'
+line : 553;    pos: 0;     source : gui/unbound/lobby/progress/progress_reel/selected_progress_modification.unbound()
+Duplicate element definition: 'DamageReason'
+line : 572;    pos: 0;     source : gui/unbound/lobby/progress/progress_reel/selected_progress_modification.unbound()
+Duplicate element definition: 'RibbonReason'
+line : 598;    pos: 0;     source : gui/unbound/lobby/progress/progress_reel/selected_progress_modification.unbound()
+Duplicate element definition: 'PostBattlePersonalInfo'
+line : 1;    pos: 0;     source : gui/unbound/battle/post_battle_results/post_battle_personal_results_info.unbound()
+Duplicate element definition: 'BrawlLevelRhomb'
+line : 2014;    pos: 0;     source : gui/unbound/lobby/battle_type_menu/type_selection.unbound()
+Invalid type of argument layout
+line : 1;    pos: 39;     source : gui/unbound/lobby/notifications/notification_log.unbound()
+Element CustomFrameLabel not been defined
+line : 225;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/pve_battle_cards.unbound()
+Element KeyIndicator not been defined
+line : 348;    pos: 4;     source : gui/unbound/lobby/store/auction/auction_lot_info.unbound()
+Element ConsumeControlItem not been defined
+line : 40;    pos: 1;     source : gui/unbound/battle/squadron_hud/squadron_control.unbound()
+Element PVEOperationModeName not been defined
+line : 645;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/operation_info.unbound()
+Element KeyIndicator not been defined
+line : 158;    pos: 2;     source : gui/unbound/lobby/store/store_item/store_bundle_coupon_container.unbound()
+Element KeyIndicator not been defined
+line : 289;    pos: 3;     source : gui/unbound/lobby/battle_type_menu/event_alpha_info.unbound()
+Element KeyIndicator not been defined
+line : 308;    pos: 3;     source : gui/unbound/lobby/battle_type_menu/event_alpha_info.unbound()
+Element KeyIndicator not been defined
+line : 291;    pos: 4;     source : gui/unbound/lobby/fleets/found_edit_fleet/founding_fleet.unbound()
+Element SubRibbonIcon not been defined
+line : 603;    pos: 2;     source : gui/unbound/battle/ribbons.unbound()
+Element FocusFrameShipreelLoadOut not been defined
+line : 60;    pos: 1;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_commander.unbound()
+Element KeyIndicator not been defined
+line : 248;    pos: 1;     source : gui/unbound/battle/squadron_hud.unbound()
+Element TechTreePremiumShips not been defined
+line : 166;    pos: 5;     source : gui/unbound/lobby/tech_tree.unbound()
+Element FleetButton not been defined
+line : 62;    pos: 12;     source : gui/unbound/lobby/fleets/has_no_fleet/create_fleet.unbound()
+Element KeyIndicator not been defined
+line : 80;    pos: 1;     source : gui/unbound/shared/molecules/tab_list.unbound()
+Element KeyIndicator not been defined
+line : 98;    pos: 1;     source : gui/unbound/shared/molecules/tab_list.unbound()
+Element KeyIndicator not been defined
+line : 258;    pos: 2;     source : gui/unbound/shared/molecules/tab_list.unbound()
+Element KeyIndicator not been defined
+line : 275;    pos: 2;     source : gui/unbound/shared/molecules/tab_list.unbound()
+Element KeyIndicator not been defined
+line : 1118;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+Element KeyIndicator not been defined
+line : 1147;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+Element KeyIndicator not been defined
+line : 490;    pos: 12;     source : gui/unbound/lobby/battle_type_menu/type_selection/type_selection_card_widgets.unbound()
+Element KeyIndicator not been defined
+line : 520;    pos: 12;     source : gui/unbound/lobby/battle_type_menu/type_selection/type_selection_card_widgets.unbound()
+Element KeyIndicator not been defined
+line : 30;    pos: 1;     source : gui/unbound/lobby/player_profile/statistics/components/player_profile_battletype_switcher.unbound()
+Element KeyIndicator not been defined
+line : 52;    pos: 1;     source : gui/unbound/lobby/player_profile/statistics/components/player_profile_battletype_switcher.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 56;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/cooperative_battle_card.unbound()
+Element EventAlphaInfoCustomConsumable not been defined
+line : 104;    pos: 3;     source : gui/unbound/shared/molecules/game_mode_map_and_description.unbound()
+Element FleetRole not been defined
+line : 71;    pos: 3;     source : gui/unbound/lobby/notifications/notification_banner/fleet_role_changed_notification.unbound()
+Element KeyIndicator not been defined
+line : 16;    pos: 2;     source : gui/unbound/shared/molecules/pagination_dot_indicator.unbound()
+Element KeyIndicator not been defined
+line : 43;    pos: 2;     source : gui/unbound/shared/molecules/pagination_dot_indicator.unbound()
+Element KeyIndicator not been defined
+line : 210;    pos: 3;     source : gui/unbound/shared/molecules/pagination_dot_indicator.unbound()
+Element KeyIndicator not been defined
+line : 223;    pos: 2;     source : gui/unbound/shared/molecules/pagination_dot_indicator.unbound()
+Element KeyIndicator not been defined
+line : 13;    pos: 2;     source : gui/unbound/lobby/progress/progress_mode.unbound()
+Element KeyIndicator not been defined
+line : 29;    pos: 2;     source : gui/unbound/lobby/progress/progress_mode.unbound()
+Element KeyIndicator not been defined
+line : 121;    pos: 4;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Element KeyIndicator not been defined
+line : 142;    pos: 4;     source : gui/unbound/lobby/fleets/found_edit_fleet/emblem/emblem_constructor_categories_view.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 127;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/ranked_battle_card.unbound()
+Element ScenarioPoint not been defined
+line : 1072;    pos: 1;     source : gui/unbound/battle/minimap.unbound()
+Element ShipTraitsTechTree not been defined
+line : 498;    pos: 6;     source : gui/unbound/lobby/tech_tree/tech_tree_ship_info_modal.unbound()
+Element SituationIndicatorsContainer not been defined
+line : 492;    pos: 1;     source : gui/unbound/battle/main_hud.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 115;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/brawl_battle_card.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 177;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/clan_battle_card.unbound()
+Element ReadyBarItem not been defined
+line : 200;    pos: 1;     source : gui/unbound/lobby/ship_list/ship_reel_item/ship_reel_overlay.unbound()
+Element FleetButton not been defined
+line : 62;    pos: 4;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_emblem_settings.unbound()
+Element ControlPresets not been defined
+line : 107;    pos: 2;     source : gui/unbound/lobby/settings/controls_tab.unbound()
+Element FleetButton not been defined
+line : 174;    pos: 12;     source : gui/unbound/lobby/fleets/has_no_fleet/search_fleets_by_preferences.unbound()
+Element FleetsList not been defined
+line : 205;    pos: 8;     source : gui/unbound/lobby/fleets/has_no_fleet/search_fleets_by_preferences.unbound()
+Element KeyIndicator not been defined
+line : 397;    pos: 3;     source : gui/unbound/shared/atoms/onboarding_hints/battle_hints/onboarding_battle_positional_hint.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 64;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/random_battle_card.unbound()
+Element FleetRole not been defined
+line : 771;    pos: 3;     source : gui/unbound/lobby/notifications/notification_log/notification_log_banners/notification_log_banner_renderer_view.unbound()
+Element TypeSelectionBattleTypeFrame not been defined
+line : 449;    pos: 2;     source : gui/unbound/lobby/battle_type_menu/type_selection/type_selection_navbar.unbound()
+Element KeyIndicator not been defined
+line : 230;    pos: 2;     source : gui/unbound/launcher/launcher_slider.unbound()
+Element KeyIndicator not been defined
+line : 249;    pos: 2;     source : gui/unbound/launcher/launcher_slider.unbound()
+Element FocusFrameShipreelLoadOut not been defined
+line : 89;    pos: 1;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_loadout.unbound()
+Element FocusFrameShipreelLoadOut not been defined
+line : 234;    pos: 1;     source : gui/unbound/lobby/ship_list/ship_summary/ship_summary_loadout.unbound()
+Element KeyIndicator not been defined
+line : 211;    pos: 4;     source : gui/unbound/lobby/campaign_pass/campaign_pass_main_screen/campaign_pass_reward_preview.unbound()
+Element KeyIndicator not been defined
+line : 212;    pos: 4;     source : gui/unbound/lobby/campaign_pass/campaign_pass_main_screen/campaign_pass_reward_preview.unbound()
+Element TypeSelectionCardFrameAndStates not been defined
+line : 115;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/ffa_card.unbound()
+Element FleetsList not been defined
+line : 91;    pos: 8;     source : gui/unbound/lobby/fleets/has_no_fleet/search_fleets_by_name.unbound()
+Element CustomFrameLabel not been defined
+line : 218;    pos: 1;     source : gui/unbound/lobby/battle_type_menu/type_selection/event_alpha_cards.unbound()
+Element FleetButton not been defined
+line : 67;    pos: 4;     source : gui/unbound/lobby/fleets/found_edit_fleet/categories_settings/fleet_tags_settings.unbound()
+Element PostBattleAchievements not been defined
+line : 263;    pos: 2;     source : gui/unbound/battle/post_battle_results/post_battle_event_alpha_info.unbound()
+========================================================================
+START BUILD ELEMENT - GameVersion
+========================================================================
+Count errors:0
+========================================================================
+========================================================================
+START BUILD ELEMENT - StartupDownloading
+========================================================================
+Count errors:0
+========================================================================
+========================================================================
+START BUILD ELEMENT - Launcher
+========================================================================
+Count errors:0
+========================================================================
+========================================================================
+START BUILD ELEMENT - ExtendedLauncher
+========================================================================
+scope already has such var
+line : 308;    pos: 2;     source : gui/unbound/lobby/tech_tree.unbound()
+SectorController radius should be greater than zero.
+line : 375;    pos: 3;     source : gui/unbound/lobby/tech_tree.unbound()
+Count errors:0
+========================================================================
+
+Scaleform error : 
+Error: null
+access of undefined scope event 'evDownloadScreenLoaded'
+line : 65;    pos: 2;     source : gui/unbound/launcher/content_download_screen.unbound()
+access of undefined scope event 'evLauncherLoaded'
+line : 66;    pos: 1;     source : gui/unbound/launcher/launcher.unbound()
+========================================================================
+START BUILD ELEMENT - BattleLoadingContainer
+========================================================================
+scope already has such var
+line : 8;    pos: 2;     source : gui/unbound/lobby/battle_loading.unbound()
+scope already has such var
+line : 281;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such var
+line : 282;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such var
+line : 283;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such var
+line : 269;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such var
+line : 270;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+Style preset name  not found
+line : 104;    pos: 4;     source : gui/unbound/shared/atoms/ship_item/ship_title.unbound()
+Style preset name  not found
+line : 112;    pos: 4;     source : gui/unbound/shared/atoms/ship_item/ship_title.unbound()
+SectorController radius should be greater than zero.
+line : 806;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+SectorController radius should be greater than zero.
+line : 819;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+SectorController innerRadius can't be negative
+line : 819;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+scope already has such var
+line : 46;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+scope already has such var
+line : 47;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+scope already has such var
+line : 48;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+Count errors:0
+========================================================================
+access of undefined scope event 'evLauncherLoaded'
+line : 67;    pos: 1;     source : gui/unbound/launcher/launcher.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+Invalid image prefix (expecting "url:", "bitmap:" or "symbol:") in null
+line : 121;    pos: 2;     source : gui/unbound/shared/atoms/header/header_flag.unbound()
+SectorController radius should be greater than zero.
+line : 806;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+SectorController radius should be greater than zero.
+line : 819;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+SectorController innerRadius can't be negative
+line : 819;    pos: 2;     source : gui/unbound/battle/minimap.unbound()
+Recursive binding
+line : 13;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+scope already has such var
+line : 46;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+scope already has such var
+line : 47;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+scope already has such var
+line : 48;    pos: 2;     source : gui/unbound/battle/markers/capture_point_marker.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+Recursive binding
+line : 152;    pos: 46;     source : gui/unbound/lobby/battle_loading.unbound()
+========================================================================
+START BUILD ELEMENT - Ub2MainHUDContainer
+========================================================================
+========================================================================
+START BUILD ELEMENT - Markers
+========================================================================
+scope already has such var
+line : 294;    pos: 2;     source : gui/unbound/battle/main_hud.unbound()
+scope already has such var
+line : 44;    pos: 2;     source : gui/unbound/battle/main_hud.unbound()
+scope already has such var
+line : 50;    pos: 2;     source : gui/unbound/battle/main_hud.unbound()
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24226 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24230 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24232 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24233 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24236 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24237 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24241 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24242 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24243 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24227 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24228 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24229 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24231 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24234 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24235 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24238 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24239 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+Can`t find property teamKiller of entityt 24240 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+Count errors:0
+========================================================================
+scope already has such var
+line : 28;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+scope already has such event
+line : 41;    pos: 2;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+scope already has such var
+line : 269;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such var
+line : 270;    pos: 2;     source : gui/unbound/system/replaces.unbound()
+scope already has such event
+line : 53;    pos: 2;     source : gui/unbound/battle/key_indicator.unbound()
+Style preset name  not found
+line : 177;    pos: 1;     source : gui/unbound/shared/atoms/common_feedback_items.unbound()
+access of undefined property 'buttonWidth'
+line : 130;    pos: 4;     source : gui/unbound/battle/key_indicator.unbound()
+access of undefined method 'buttonWidth' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		buttonIcon : 
+		customTextClass : 
+		fleetEntityId : 0
+		inactiveTimeout : 0
+		inactiveTimeoutFin : 0
+		isLongTap : false
+		isOutline : false
+		isSendActionCounter : 0
+		keyIndicatorData : {}
+		keyIndicatorIDS : null
+		keyIndicatorIconData : {}
+		keyIndicatorIconRenderer : null
+		keyIndicatorIconRendererData : {}
+		state : default
+		stateList : {default:{bgColor:2566919461,opacity:1,textColor:4294046193},disabled:{bgColor:2566919461,opacity:0.3,textColor:4294046193},fade:{bgColor:2566919461,opacity:0.7,textColor:4294046193},focused:{bgColor:2566919461,enableAnimatedGlow:true,opacity:1,textColor:4294046193},premium:{bgColor:2566919461,frameFamily:premium,opacity:1,textColor:4294954086},priority_selection:{bgColor:4294046193,frameOpacity:0,opacity:1,textColor:4278195493},priority_selection_disabled:{bgColor:4288395705,bgOpacity:0.25,frameOpacity:0,opacity:1,textColor:4278195493}})
+line : 137;    pos: 5;     source : gui/unbound/battle/key_indicator.unbound()
+Event must be ECMA-expression, not 'null'
+line : 735;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+Event must be ECMA-expression, not 'null'
+line : 739;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+Recursive binding
+line : 28;    pos: 2;     source : gui/unbound/shared/molecules/dynamic_legend.unbound()
+construct undefined definition name 'SituationIndicatorsContainer'
+line : 492;    pos: 1;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'pivotRight'
+line : 265;    pos: 3;     source : gui/unbound/battle/spectator.unbound()
+access of undefined property 'pivotRight' through a reference with type style_preset(StylePreset)
+line : 270;    pos: 4;     source : gui/unbound/battle/spectator.unbound()
+scope already has such var
+line : 896;    pos: 2;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'data'
+line : 981;    pos: 4;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'data' through a reference with type scope(Scope:
+	Events:
+	Vars:
+)
+line : 982;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'size'
+line : 981;    pos: 4;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'size' through a reference with type scope(Scope:
+	Events:
+	Vars:
+)
+line : 983;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'positionX'
+line : 981;    pos: 4;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events:
+	Vars:
+)
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'positionY'
+line : 981;    pos: 4;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events:
+	Vars:
+)
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'data' through a reference with type scope(Scope:
+	Events: evControlMoveTouchBegin evControlMoveTouchOut evEnableTurnFX evHintCount evHintTaskComplete
+	Vars:
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping : -35
+				fps : 30
+				lag : 0
+				]
+			[BattleTimer
+				battleTimeLeftText : 00:05
+				battleTimeLeft : 5.000000
+				]
+			[BattleState
+				arenaUniqueID : 2305843874195085996
+				battleState : 1
+				readyToBattle : 1
+				loadingProgress : 1.000000
+				]
+			[BattleInfo
+				mapId : 0
+				battleType : TrainingBattle
+				duration : 15
+				gameModeId : 7
+				gameMode : GAMEMODE_AWESOME
+				gameModeDescripti
+line : 982;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'size' through a reference with type scope(Scope:
+	Events: evControlMoveTouchBegin evControlMoveTouchOut evEnableTurnFX evHintCount evHintTaskComplete
+	Vars:
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping : -35
+				fps : 30
+				lag : 0
+				]
+			[BattleTimer
+				battleTimeLeftText : 00:05
+				battleTimeLeft : 5.000000
+				]
+			[BattleState
+				arenaUniqueID : 2305843874195085996
+				battleState : 1
+				readyToBattle : 1
+				loadingProgress : 1.000000
+				]
+			[BattleInfo
+				mapId : 0
+				battleType : TrainingBattle
+				duration : 15
+				gameModeId : 7
+				gameMode : GAMEMODE_AWESOME
+				gameModeDescripti
+line : 983;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events: evControlMoveTouchBegin evControlMoveTouchOut evEnableTurnFX evHintCount evHintTaskComplete
+	Vars:
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping : -35
+				fps : 30
+				lag : 0
+				]
+			[BattleTimer
+				battleTimeLeftText : 00:05
+				battleTimeLeft : 5.000000
+				]
+			[BattleState
+				arenaUniqueID : 2305843874195085996
+				battleState : 1
+				readyToBattle : 1
+				loadingProgress : 1.000000
+				]
+			[BattleInfo
+				mapId : 0
+				battleType : TrainingBattle
+				duration : 15
+				gameModeId : 7
+				gameMode : GAMEMODE_AWESOME
+				gameModeDesc
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events: evControlMoveTouchBegin evControlMoveTouchOut evEnableTurnFX evHintCount evHintTaskComplete
+	Vars:
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping : -35
+				fps : 30
+				lag : 0
+				]
+			[BattleTimer
+				battleTimeLeftText : 00:05
+				battleTimeLeft : 5.000000
+				]
+			[BattleState
+				arenaUniqueID : 2305843874195085996
+				battleState : 1
+				readyToBattle : 1
+				loadingProgress : 1.000000
+				]
+			[BattleInfo
+				mapId : 0
+				battleType : TrainingBattle
+				duration : 15
+				gameModeId : 7
+				gameMode : GAMEMODE_AWESOME
+				gameModeDesc
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+scope already has such var
+line : 37;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+scope already has such var
+line : 38;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+scope already has such var
+line : 55;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+scope already has such var
+line : 65;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+scope already has such var
+line : 66;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+scope already has such var
+line : 67;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+SectorController radius should be greater than zero.
+line : 339;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events: evHintCount evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		battleConsumable : BattleConsumable
+				type : 0
+				index : 0
+				id : 4293042096
+				ident : consumable_PCY001_CrashCrew
+				reloadTime : 57
+				workTime : 5
+				state : 0
+				consumeNum : -1
+				
+		battleDamageComponent : BattleDamage
+				ally : 0
+				enemy : 0
+				
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping :
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events: evHintCount evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		battleConsumable : BattleConsumable
+				type : 0
+				index : 0
+				id : 4293042096
+				ident : consumable_PCY001_CrashCrew
+				reloadTime : 57
+				workTime : 5
+				state : 0
+				consumeNum : -1
+				
+		battleDamageComponent : BattleDamage
+				ally : 0
+				enemy : 0
+				
+		battleDataCollection : Collection
+		battleDataEntity : Entity id = 24224
+		[Components : 9]
+		
+			[BattleDamage
+				ally : 0
+				enemy : 0
+				]
+			[BattleTeamsInfo
+				allTeamsIds : [0,1]
+				teamsRelation : {0:1,1:2}
+				]
+			[BattleData
+				]
+			[AliveTeammates
+				count : 0
+				]
+			[BattleTeamScore
+				totalScore : 1000
+				allyScore : 0
+				enemyScore : 0
+				allyDiff : 0
+				enemyDiff : 0
+				]
+			[PingLagInfo
+				ping :
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'data' through a reference with type scope(Scope:
+	Events: evBinocularActionIn evBinocularActionOut evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 6]
+		
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+line : 982;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events: evBinocularActionIn evBinocularActionOut evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 6]
+		
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events: evBinocularActionIn evBinocularActionOut evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 6]
+		
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'data' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selectedInde
+line : 982;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selecte
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoTypes : [HE,AP]
+				selecte
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'data' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				ammoType
+line : 982;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionX' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				amm
+line : 984;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'positionY' through a reference with type scope(Scope:
+	Events: evCallTapFeedback evOnTouchBegin evOnTouchDouble evOnTouchEnd evOnTouchLong evOnTouchMove evOnTouchOut evOnTouchOver evOnTouchRollOut evOnTouchRollOver evOnTouchTap evOnTouchTapRaw evQCStateChanged evTapPressed evTapUnpressed
+	Vars:
+		artilleryAmmoTypes : [HE,AP]
+		artilleryControl : WeaponControl
+				ammoTypes : [HE,AP]
+				selectedIndex : 0
+				nextSelectionIndex : -1
+				
+		artilleryEntity : Entity id = 24283
+		[Components : 7]
+		
+			[CountDown
+				endTime : 0.000000
+				duration : 0.000000
+				remain : 0.000000
+				]
+			[SimpleControl
+				controlType : 0
+				enabled : 1
+				selected : 0
+				]
+			[Selection
+				value : 1
+				]
+			[GunsCount
+				countGuns : 5
+				countAliveGuns : 5
+				countReloadedGuns : 5
+				countActiveGuns : 5
+				]
+			[Weapon
+				type : 0
+				guns : [24278,24279,24280,24281,24282]
+				isOutOfDist : 0
+				]
+			[WeaponReady
+				aimed : 1
+				reloadPercent : 1.000000
+				]
+			[WeaponControl
+				amm
+line : 985;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'accountLevel'
+line : 534;    pos: 5;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined method 'accountLevel' through a reference with type scope(Scope:
+	Events: evHintCount evModuleDamaged evModuleNotDamaged evStartBots
+	Vars:
+		battleStarted : false
+		currentHintName : null
+		damagedModules : 0
+		diagonal : 6.26620340347
+		dpi : 420
+		expandedSettName : mobileSecondaryHUDExpanded
+		expandedSettingsComponent : Setting
+				name : mobileSecondaryHUDExpanded
+				type : checkBox
+				value : 0.000000
+				
+		expandedSettingsEntity : Entity id = 835
+		[Components : 1]
+		
+			[Setting
+				name : mobileSecondaryHUDExpanded
+				type : checkBox
+				value : 0.000000
+				]
+		]
+		isExpanded : false
+		isMinimapDisclosed : false
+		isMobileTutorial : false
+		isTablet : false
+		mobileHeight : 1080
+		settingsTypeColl : Collection
+		startSimpleAnimation : false)
+line : 537;    pos: 6;     source : gui/unbound/battle/main_hud.unbound()
+access of undefined property 'alpha'
+line : 32;    pos: 3;     source : gui/unbound/battle/compass_container.unbound()
+access of undefined property 'alpha' through a reference with type controller(SectorController)
+line : 34;    pos: 4;     source : gui/unbound/battle/compass_container.unbound()
+Count errors:0
+========================================================================
+access of undefined scope event 'evCameraOnBattleStart'
+line : 406;    pos: 1;     source : gui/unbound/battle/main_hud.unbound()
+Duration must be more zero.
+line : 84;    pos: 2;     source : gui/unbound/battle/key_indicator.unbound()
+access of undefined scope event 'evCameraMobileInputIn'
+line : 316;    pos: 1;     source : gui/unbound/battle/spectator.unbound()
+========================================================================
+START BUILD ELEMENT - Ub2RibbonsTimerContainer
+========================================================================
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -1 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -2 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -3 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -4 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -5 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+
+ Player [ ub::Player]
+-----------------------------
+CollectiontItems wront member name -6 
+line : 0;    pos: -1;     source : ub::BaseObject::BaseObject invalid debug info(datahub)
+-----------------------------
+scope already has such var
+line : 17;    pos: 2;     source : gui/unbound/battle/battle_timer.unbound()
+scope already has such var
+line : 23;    pos: 2;     source : gui/unbound/battle/battle_timer.unbound()
+scope already has such var
+line : 24;    pos: 2;     source : gui/unbound/battle/battle_timer.unbound()
+scope already has such var
+line : 25;    pos: 2;     source : gui/unbound/battle/battle_timer.unbound()
+Count errors:0
+========================================================================
+========================================================================
+START BUILD ELEMENT - Ub2CrosshairContainer
+========================================================================
+access of undefined method 'style' through a reference with type element(m)
+line : 203;    pos: 1;     source : gui/unbound/system/replaces.unbound()
+Count errors:0
+========================================================================
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+SectorController radius should be greater than zero.
+line : 301;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+SectorController radius should be greater than zero.
+line : 311;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+SectorController innerRadius can't be negative
+line : 311;    pos: 2;     source : gui/unbound/battle/controls.unbound()
+Style preset name $MTextH9Stroke not found
+line : 296;    pos: 6;     source : gui/unbound/battle/markers/ship_marker.unbound()
+access of undefined scope event 'evSoundSet'
+line : 118;    pos: 2;     source : gui/unbound/battle/controls_weapon_panel.unbound()
+access of undefined scope event 'evSwitchStateBack'
+line : 106;    pos: 1;     source : gui/unbound/battle/battle_status/battle_status.unbound()
+scope already has such var
+line : 274;    pos: 2;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined property 'isAlive'
+line : 515;    pos: 6;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined method 'isAlive' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		text : null)
+line : 516;    pos: 7;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined property 'isSelf'
+line : 515;    pos: 6;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined method 'isSelf' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		text : null)
+line : 517;    pos: 7;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined property 'tkStatus'
+line : 515;    pos: 6;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined method 'tkStatus' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		text : null)
+line : 518;    pos: 7;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined property 'isInSameDivision'
+line : 515;    pos: 6;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+access of undefined method 'isInSameDivision' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		text : null)
+line : 519;    pos: 7;     source : gui/unbound/battle/post_battle_results/post_battle_team_results.unbound()
+There is no keys in this string 'IDS_CMD_MAP_RECT_ATTENTION_MESSAGE_ALLY_CAPTUREPOINT'
+line : 139;    pos: 2;     source : gui/unbound/shared/atoms/battle_log_quick_command_item.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+access of undefined property 'scaleRatio'
+line : 431;    pos: 9;     source : gui/unbound/battle/minimap.unbound()
+access of undefined method 'scaleRatio' through a reference with type scope(Scope:
+	Events:
+	Vars:
+		entity : Entity id = 24333
+		[Components : 9]
+		
+			[BigWorldEntity
+				id : 2147483647
+				]
+			[Selection
+				value : 0
+				]
+			[Distance
+				distanceToShip : 0.052379
+				distanceToShipBW : 1.745975
+				distanceToCamera : 15.207456
+				distanceToOwnVehicle : 0.052379
+				distanceToOwnVehicleBW : 1.745975
+				distanceIndex : 0
+				]
+			[SquadronConsole
+				id : 107911053529.000000
+				ownerId : 536871129.000000
+				planeType : fighter
+				planeName : 
+				isConsumable : 1
+				]
+			[QuickCommand
+				]
+			[InteractiveZone
+				name : 
+				type : 0
+				resourceType : 0
+				loading : 0
+				ownerId : 0.000000
+				tag : 
+				state : 
+				radius : 0.000000
+				]
+			[Relation
+				value : 0
+				]
+			[MapPosition
+				x : 0.332925
+				y : 0.756033
+				yaw : 0.000000
+				]
+			[EntityType
+				value : 6
+				]
+		])
+line : 431;    pos: 16;     source : gui/unbound/battle/minimap.unbound()
+There is no keys in this string 'IDS__MESSAGE_ALLY_CAPTUREPOINT'
+line : 139;    pos: 2;     source : gui/unbound/shared/atoms/battle_log_quick_command_item.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+access of undefined method 'style' through a reference with type element(m)
+line : 152;    pos: 3;     source : gui/unbound/battle/markers.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+There is no keys in this string 'IDS_CMD_QUICK_AYE_AYE_MESSAGE_ALLY_CAPTUREPOINT'
+line : 139;    pos: 2;     source : gui/unbound/shared/atoms/battle_log_quick_command_item.unbound()
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+
+Scaleform error : 
+Error: null
+========================================================================
+START BUILD ELEMENT - PostBattleBackground
+========================================================================
+Count errors:0
+========================================================================

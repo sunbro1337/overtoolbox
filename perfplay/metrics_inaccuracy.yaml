@@ -1,0 +1,42 @@
+Global_Frame_Time(ms):
+  count:
+  min: 0.01
+  max: 0.01
+  mean: 0.01
+  25%: 0.01
+  50%: 0.01
+  75%: 0.01
+
+GPU_Total:
+  count:
+  min: 0.01
+  max: 0.01
+  mean: 0.01
+  25%: 0.01
+  50%: 0.01
+  75%: 0.01
+
+CPU_Total(ms):
+  count:
+  min: 0.01
+  max: 0.01
+  mean: 0.01
+  25%: 0.01
+  50%: 0.01
+  75%: 0.01
+CPU_Draw(ms):
+  count:
+  min: 0.01
+  max: 0.01
+  mean: 0.01
+  25%: 0.01
+  50%: 0.01
+  75%: 0.01
+CPU_Update(ms):
+  count:
+  min: 0.01
+  max: 0.01
+  mean: 0.01
+  25%: 0.01
+  50%: 0.01
+  75%: 0.01

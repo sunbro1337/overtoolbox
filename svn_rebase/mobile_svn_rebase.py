@@ -14,8 +14,8 @@ import txts
 import styles
 
 
-SVN_REBASE_EXE = 'py.exe -2.7 D:\\tools\svn_rebase\svn_rebase.py'
-SVN_REBASE_PREPARE_EXE = 'py.exe -2.7 D:\\tools\svn_rebase\svn_rebase_prepare.py'
+SVN_REBASE_EXE = f'py.exe -2.7 {os.path.join("D:", "Source", "tools", "svn_rebase.py")}'
+SVN_REBASE_PREPARE_EXE = f'py.exe -2.7 {os.path.join("D:", "Source", "tools", "svn_rebase_prepare.py")}'
 
 
 def find_working_branch(cwd):
